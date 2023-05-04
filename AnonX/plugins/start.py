@@ -4,7 +4,7 @@ import time
 from pyrogram import filters
 from pyrogram.types import (InlineKeyboardButton,
                             InlineKeyboardMarkup, Message)
-from youtubesearchpython.__future__ import VideosSearch
+from youtubesearchpython.future import VideosSearch
 from strings.filters import command
 import config
 from config import BANNED_USERS
@@ -88,13 +88,14 @@ async def start_comm(client, message: Message, _):
                     details = stats.get(vidid)
                     title = (details["title"][:35]).title()
                     if vidid == "telegram":
-                        msg += f"🔗[ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ](https://t.me/DevilsHeavenMF) ** ᴩʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
+                        msg += f"🔗[ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ](https://t.me/lN_B_Fl)  ᴩʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs\n\n"
                     else:
-                        msg += f"🔗 [{title}](https://www.youtube.com/watch?v={vidid}) ** played {count} times**\n\n"
+                        msg += f"🔗 [{title}](https://www.youtube.com/watch?v={vidid})  played {count} times\n\n"
                 msg = _["ustats_2"].format(tot, tota, limit) + msg
                 return videoid, msg
 
-            try:
+# 『𝐖𝐇𝐈𝐒𝐊𝐄𝐘 𝐓𝐍𝐓 ⏎ 』, [14/10/44 06:44 م]
+try:
                 videoid, msg = await loop.run_in_executor(
                     None, get_stats
                 )
@@ -112,7 +113,7 @@ async def start_comm(client, message: Message, _):
                 sender_name = message.from_user.first_name
                 return await app.send_message(
                     config.LOG_GROUP_ID,
-                    f"{message.from_user.mention} البوت بدا ليفحص <code>sᴜᴅᴏʟɪsᴛ</code>\n\n**ᴜsᴇʀ ɪᴅ:** {sender_id}\n**ᴜsᴇʀɴᴀᴍᴇ:** {sender_name}",
+                    f"{message.from_user.mention} البوت بدا ليفحص <code>sᴜᴅᴏʟɪsᴛ</code>\n\nᴜsᴇʀ ɪᴅ: {sender_id}\nᴜsᴇʀɴᴀᴍᴇ: {sender_name}",
                 )
             return
         if name[0:3] == "lyr":
@@ -134,7 +135,7 @@ async def start_comm(client, message: Message, _):
                 sender_name = message.from_user.first_name
                 return await app.send_message(
                     config.LOG_GROUP_ID,
-                    f"{message.from_user.mention} البوت بدا  <code>ᴠᴇʀɪғʏ ʜɪᴍsᴇʟғ</code>\n\n**ᴜsᴇʀ ɪᴅ:** {sender_id}\n**ᴜsᴇʀɴᴀᴍᴇ:** {sender_name}",
+                    f"{message.from_user.mention} البوت بدا  <code>ᴠᴇʀɪғʏ ʜɪᴍsᴇʟғ</code>\n\nᴜsᴇʀ ɪᴅ: {sender_id}\nᴜsᴇʀɴᴀᴍᴇ: {sender_name}",
                 )
             return
         if name[0:3] == "inf":
@@ -154,16 +155,16 @@ async def start_comm(client, message: Message, _):
                 link = result["link"]
                 published = result["publishedTime"]
             searched_text = f"""
-😲**معلومات المسارات**😲
+😲معلومات المسارات😲
 
-📌**عنوان:** {title}
+📌عنوان: {title}
 
-⏳**المدة:** {duration} ᴍɪɴᴜᴛᴇs
-👀**المشاهدات:** `{views}`
-⏰**نشرت في:** {published}
-🎥**القناة:** {channel}
-📎**رابط القناة:** [ᴠɪsɪᴛ ᴄʜᴀɴɴᴇʟ]({channellink})
-🔗**الرابط:** [ᴡᴀᴛᴄʜ ᴏɴ ʏᴏᴜᴛᴜʙᴇ]({link})
+⏳المدة: {duration} ᴍɪɴᴜᴛᴇs
+👀المشاهدات: {views}
+⏰نشرت في: {published}
+🎥القناة: {channel}
+📎رابط القناة: [ᴠɪsɪᴛ ᴄʜᴀɴɴᴇʟ]({channellink})
+🔗الرابط: [ᴡᴀᴛᴄʜ ᴏɴ ʏᴏᴜᴛᴜʙᴇ]({link})
 
 💖 البحث يعمل بواسطة {config.MUSIC_BOT_NAME}"""
             key = InlineKeyboardMarkup(
@@ -173,7 +174,7 @@ async def start_comm(client, message: Message, _):
                             text="• ʏᴏᴜᴛᴜʙᴇ •", url=f"{link}"
                         ),
                         InlineKeyboardButton(
-                            text="Source manga •", url="https://t.me/NattChat"
+                            text="Source manga •", url="https://t.me/lN_B_Fl"
                         ),
                     ],
                 ]
@@ -187,11 +188,13 @@ async def start_comm(client, message: Message, _):
                 reply_markup=key,
             )
             if await is_on_off(config.LOG):
-                sender_id = message.from_user.id
+
+『𝐖𝐇𝐈𝐒𝐊𝐄𝐘 𝐓𝐍𝐓 ⏎ 』, [14/10/44 06:44 م]
+sender_id = message.from_user.id
                 sender_name = message.from_user.first_name
                 return await app.send_message(
                     config.LOG_GROUP_ID,
-                    f"{message.from_user.mention} البوت بدا ليفحص <code>ᴛʀᴀᴄᴋ ɪɴғᴏʀᴍᴀᴛɪᴏɴ</code>\n\n**ᴜsᴇʀ ɪᴅ:** {sender_id}\n**ᴜsᴇʀɴᴀᴍᴇ:** {sender_name}",
+                    f"{message.from_user.mention} البوت بدا ليفحص <code>ᴛʀᴀᴄᴋ ɪɴғᴏʀᴍᴀᴛɪᴏɴ</code>\n\nᴜsᴇʀ ɪᴅ: {sender_id}\nᴜsᴇʀɴᴀᴍᴇ: {sender_name}",
                 )
     else:
         try:
@@ -225,7 +228,7 @@ async def start_comm(client, message: Message, _):
             sender_name = message.from_user.first_name
             return await app.send_message(
                 config.LOG_GROUP_ID,
-                f"{message.from_user.mention} البوت بدا .\n\n**ᴜsᴇʀ ɪᴅ:** {sender_id}\n**ᴜsᴇʀɴᴀᴍᴇ:** {sender_name}",
+                f"{message.from_user.mention} البوت بدا .\n\nᴜsᴇʀ ɪᴅ: {sender_id}\nᴜsᴇʀɴᴀᴍᴇ: {sender_name}",
             )
 
 
@@ -257,7 +260,7 @@ async def welcome(client, message: Message):
     if config.PRIVATE_BOT_MODE == str(True):
         if not await is_served_private_chat(message.chat.id):
             await message.reply_text(
-                "**خاص بوت الموسيقى**\n\nفقط للمحادثات المصرح بها من قبل مالكي الحساب، يرجى الطلب من مالك الحساب في الرسائل الخاصة للمصادقة على محادثتك، وإذا لم ترغب في ذلك، فافعل ما تريد لأني سأغادر.."
+                "خاص بوت الموسيقى\n\nفقط للمحادثات المصرح بها من قبل مالكي الحساب، يرجى الطلب من مالك الحساب في الرسائل الخاصة للمصادقة على محادثتك، وإذا لم ترغب في ذلك، فافعل ما تريد لأني سأغادر.."
             )
             return await app.leave_chat(message.chat.id)
     else:
@@ -282,7 +285,9 @@ async def welcome(client, message: Message):
                 OWNER = OWNER_ID[0]
                 out = start_pannel(_, app.username, OWNER)
                 await message.reply_photo(
-                    photo=config.START_IMG_URL,
+
+『𝐖𝐇𝐈𝐒𝐊𝐄𝐘 𝐓𝐍𝐓 ⏎ 』, [14/10/44 06:44 م]
+photo=config.START_IMG_URL,
                     caption=_["start_3"].format(
                         config.MUSIC_BOT_NAME,
                         userbot.username,
