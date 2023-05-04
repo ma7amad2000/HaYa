@@ -14,7 +14,7 @@ from AnonX.utils.database import *
 
 from pytgcalls.exceptions import (NoActiveGroupCall,TelegramServerError)
 
-@app.on_message(filters.regex("من في المكالمه "))
+@app.on_message(filters.regex("من في المكالمه"))
 
 async def strcall(client, message):
 
