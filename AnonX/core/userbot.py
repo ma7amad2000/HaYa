@@ -1,4 +1,3 @@
-#『𝐖𝐇𝐈𝐒𝐊𝐄𝐘 𝐓𝐍𝐓 ⏎ 』, [15/10/44 01:34 ص]
 import sys
 
 from pyrogram import Client
@@ -49,8 +48,8 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("lN_B_Fl")
-                await self.one.join_chat("HL_BG")
+                await self.one.join_chat("DevilsHeavenMF")
+                await self.one.join_chat("FallenAssociation")
             except:
                 pass
             assistants.append(1)
@@ -80,8 +79,8 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("lN_B_Fl")
-                await self.two.join_chat("HL_BG")
+                await self.two.join_chat("DevilsHeavenMF")
+                await self.two.join_chat("FallenAssociation")
             except:
                 pass
             assistants.append(2)
@@ -106,15 +105,15 @@ class Userbot(Client):
                 )
                 sys.exit()
             LOGGER(name).info(
-                f"Assistant Two Started as {self.two.name}"
 
-#『𝐖𝐇𝐈𝐒𝐊𝐄𝐘 𝐓𝐍𝐓 ⏎ 』, [15/10/44 01:34 ص]
-)
+
+f"Assistant Two Started as {self.two.name}"
+            )
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("lN_B_Fl")
-                await self.three.join_chat("HL_BG")
+                await self.three.join_chat("DevilsHeavenMF")
+                await self.three.join_chat("FallenAssociation")
             except:
                 pass
             assistants.append(3)
@@ -144,8 +143,8 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("lN_B_Fl")
-                await self.four.join_chat("HL_BG")
+                await self.four.join_chat("DevilsHeavenMF")
+                await self.four.join_chat("FallenAssociation")
             except:
                 pass
             assistants.append(4)
@@ -175,8 +174,8 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("lN_B_Fl")
-                await self.five.join_chat("HL_BG")
+                await self.five.join_chat("DevilsHeavenMF")
+                await self.five.join_chat("FallenAssociation")
             except:
                 pass
             assistants.append(5)
@@ -194,7 +193,9 @@ class Userbot(Client):
             try:
                 await self.five.send_message(
                     config.LOG_GROUP_ID, f"» {config.MUSIC_BOT_NAME} ᴀssɪsᴛᴀɴᴛ ғɪᴠᴇ sᴛᴀʀᴛᴇᴅ :\n\n✨ ɪᴅ : {self.five.id}\n❄ ɴᴀᴍᴇ : {self.five.name}\n💫 ᴜsᴇʀɴᴀᴍᴇ : @{self.five.username}"
-                )
+
+
+)
             except:
                 LOGGER(name).error(
                     f"Assistant Account 5 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin ! "
