@@ -74,7 +74,7 @@ async def hshs(client: Client, message: Message):
     chat_name = message.chat.title#
     username = f"@{message.reply_to_message.from_user.username}"#
     async for photo in client.iter_profile_photos(message.reply_to_message.from_user.id, limit=1):
-                    await message.reply_photo(photo.file_id,       caption=f"""**[★⌞ 𝘾𝙍 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝˹⚡˼⁩](https://t.me/pp_g3)\n\n🐉 ¦ ɴᴀᴍᴇ : {name}\n🤡 ¦ ᴜѕᴇ : {username}\n🔥 ¦ ɪᴅ : `{user_id}`\n🔅 ¦ ɪᴅ ᴄʜᴀᴛ : `{chat_idd}`\n💭 ¦ ᴄʜᴀᴛ : {chat_name}\n🐊 ¦ ɢʀᴏᴜᴘ : {chat_username} \n**""", 
+                    await message.reply_photo(photo.file_id,       caption=f"""[★⌞ 𝐌𝐔𝐒𝐈𝐂 𝐇𝐀𝐘𝐀  • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝˹⚡️˼⁩](https://t.me/ lN_B_Fl )\n\n🐉 ¦ ɴᴀᴍᴇ : {name}\n🤡 ¦ ᴜѕᴇ : {username}\n🔥 ¦ ɪᴅ : {user_id}\n🔅 ¦ ɪᴅ ᴄʜᴀᴛ : {chat_idd}\n💭 ¦ ᴄʜᴀᴛ : {chat_name}\n🐊 ¦ ɢʀᴏᴜᴘ : {chat_username} \n""", 
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -106,7 +106,9 @@ async def ppdi(client: Client, message: Message):
     usr = await client.get_users(message.from_user.id)
     name = usr.first_name
     async for photo in client.iter_profile_photos(message.from_user.id, limit=1):
-                    await message.reply_photo(photo.file_id,       caption=f"""**• انـت »   {message.from_user.mention()} يا قلبي ياناس🔥😮‍💨**""", 
+
+# 『𝐖𝐇𝐈𝐒𝐊𝐄𝐘 𝐓𝐍𝐓 ⏎ 』, [14/10/44 08:11 م]
+await message.reply_photo(photo.file_id,       caption=f"""• انـت »   {message.from_user.mention()} يا قلبي ياناس🔥😮‍💨""", 
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -141,7 +143,7 @@ async def ginnj(client: Client, message: Message):
     chat_name = message.chat.title
     chat_username = f"@{message.chat.username}"
     photo = await client.download_media(message.chat.photo.big_file_id)
-    await message.reply_photo(photo=photo, caption=f"""**🐲 ¦ الاسم » {chat_name}\n🚸 ¦ ايدي الجروب »  -{chat_idd}\n🐊 ¦ رابط » {chat_username}**""",     
+    await message.reply_photo(photo=photo, caption=f"""🐲 ¦ الاسم » {chat_name}\n🚸 ¦ ايدي الجروب »  -{chat_idd}\n🐊 ¦ رابط » {chat_username}""",     
     reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -151,4 +153,3 @@ async def ginnj(client: Client, message: Message):
             ]
         ),
     )
-    
