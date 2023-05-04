@@ -17,16 +17,16 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "cr")
 
 OWNER_ID = list(
-  map(int, getenv("OWNER_ID", "").split())) + [1715562844]
+  map(int, getenv("OWNER_ID", "").split())) + [5369501919]
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Tompriv/Tom")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/ma7amad2000/HaYa.git)
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/B700B")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/NettChat")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/lN_B_Fl")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/HL_BG")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
