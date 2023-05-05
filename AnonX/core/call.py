@@ -1,3 +1,6 @@
+# ⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺
+
+
 import os
 import asyncio
 from datetime import datetime, timedelta
