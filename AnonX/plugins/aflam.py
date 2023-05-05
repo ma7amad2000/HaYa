@@ -47,7 +47,7 @@ async def aflamAR(c: Client, m: Message):
 async def aflamAR2(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
 
@@ -65,7 +65,7 @@ async def aflamAR2(c: Client, m: CallbackQuery):
 async def film(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
 
@@ -74,7 +74,7 @@ async def film(c: Client, m: CallbackQuery):
         [InlineKeyboardButton("دراما 🌚", callback_data="drama " + str(m.from_user.id))],
 
         [InlineKeyboardButton("『𝐖𝐇𝐈𝐒𝐊𝐄𝐘 𝐓𝐍𝐓 ⏎ 』", callback_data="aflamAR2 " + str(m.from_user.id))],
-        [InlineKeyboardButton("⌞ 𝐇𝐀𝐘𝐀 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⚡", url=f"https://t.me/pp_g3")],
+        [InlineKeyboardButton("⌞ 𝐇𝐀𝐘𝐀 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⚡", url=f"https://t.me/lN_B_Fl")],
 
     ])
     await m.message.edit_text("◍ اهلا بيك في قائمة الافلام العربيه\n√", reply_markup=keyboard)
@@ -90,7 +90,7 @@ async def film(c: Client, m: CallbackQuery):
 async def comedy(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
 
@@ -116,7 +116,7 @@ async def comedy(c: Client, m: CallbackQuery):
         [InlineKeyboardButton("⌯ البدله", callback_data="Xco20 " + str(m.from_user.id))],
 
         [InlineKeyboardButton("『𝐖𝐇𝐈𝐒𝐊𝐄𝐘 𝐓𝐍𝐓 ⏎ 』", callback_data="film " + str(m.from_user.id))],
-        [InlineKeyboardButton("⌞ 𝐇𝐀𝐘𝐀 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⚡", url=f"https://t.me/pp_g3")],
+        [InlineKeyboardButton("⌞ 𝐇𝐀𝐘𝐀 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⚡", url=f"https://t.me/lN_B_Fl")],
 
     ])
     await m.message.edit_text("◍ اهلا بك في قائمة الافلام الكوميدي العربيه\n√", reply_markup=keyboard)
@@ -126,7 +126,7 @@ async def comedy(c: Client, m: CallbackQuery):
 async def Xco1(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton("⌯ جوده متوسطه", callback_data="XXco1 " + str(m.from_user.id))] +
@@ -146,7 +146,7 @@ async def Xco1(c: Client, m: CallbackQuery):
 async def Xco2(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton("⌯ جوده متوسطه", callback_data="XXco3 " + str(m.from_user.id))] +
@@ -166,7 +166,7 @@ async def Xco2(c: Client, m: CallbackQuery):
 async def Xco3(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton("⌯ جوده متوسطه", callback_data="XXco5 " + str(m.from_user.id))] +
@@ -186,7 +186,7 @@ async def Xco3(c: Client, m: CallbackQuery):
 async def Xco4(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton("⌯ جوده متوسطه", callback_data="XXco7 " + str(m.from_user.id))] +
@@ -206,7 +206,7 @@ async def Xco4(c: Client, m: CallbackQuery):
 async def Xco5(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton("⌯ جوده متوسطه", callback_data="XXco9 " + str(m.from_user.id))] +
@@ -226,7 +226,7 @@ async def Xco5(c: Client, m: CallbackQuery):
 async def Xco6(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton("⌯ جوده متوسطه", callback_data="XXco11 " + str(m.from_user.id))] +
@@ -246,7 +246,7 @@ async def Xco6(c: Client, m: CallbackQuery):
 async def Xco7(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton("⌯ جوده متوسطه", callback_data="XXco13 " + str(m.from_user.id))] +
@@ -266,7 +266,7 @@ async def Xco7(c: Client, m: CallbackQuery):
 async def Xco8(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton("⌯ جوده متوسطه", callback_data="XXco15 " + str(m.from_user.id))] +
@@ -286,7 +286,7 @@ async def Xco8(c: Client, m: CallbackQuery):
 async def Xco9(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton("⌯ جوده متوسطه", callback_data="XXco17 " + str(m.from_user.id))] +
@@ -306,7 +306,7 @@ async def Xco9(c: Client, m: CallbackQuery):
 async def Xco10(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton("⌯ جوده متوسطه", callback_data="XXco19 " + str(m.from_user.id))] +
@@ -326,7 +326,7 @@ async def Xco10(c: Client, m: CallbackQuery):
 async def Xco11(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton("⌯ جوده متوسطه", callback_data="XXco21 " + str(m.from_user.id))] +
@@ -346,7 +346,7 @@ async def Xco11(c: Client, m: CallbackQuery):
 async def Xco12(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton("⌯ جوده متوسطه", callback_data="XXco23 " + str(m.from_user.id))] +
@@ -366,7 +366,7 @@ async def Xco12(c: Client, m: CallbackQuery):
 async def Xco13(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton("⌯ جوده متوسطه", callback_data="XXco25 " + str(m.from_user.id))] +
@@ -386,7 +386,7 @@ async def Xco13(c: Client, m: CallbackQuery):
 async def Xco14(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton("⌯ جوده متوسطه", callback_data="XXco27 " + str(m.from_user.id))] +
@@ -406,7 +406,7 @@ async def Xco14(c: Client, m: CallbackQuery):
 async def Xco15(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton("⌯ جوده متوسطه", callback_data="XXco29 " + str(m.from_user.id))] +
@@ -426,7 +426,7 @@ async def Xco15(c: Client, m: CallbackQuery):
 async def Xco16(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton("⌯ جوده متوسطه", callback_data="XXco31 " + str(m.from_user.id))] +
@@ -446,7 +446,7 @@ async def Xco16(c: Client, m: CallbackQuery):
 async def Xco17(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton("⌯ جوده متوسطه", callback_data="XXco33 " + str(m.from_user.id))] +
@@ -466,7 +466,7 @@ async def Xco17(c: Client, m: CallbackQuery):
 async def Xco18(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton("⌯ جوده متوسطه", callback_data="XXco35 " + str(m.from_user.id))] +
@@ -486,7 +486,7 @@ async def Xco18(c: Client, m: CallbackQuery):
 async def Xco19(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton("⌯ جوده متوسطه", callback_data="XXco37 " + str(m.from_user.id))] +
@@ -507,7 +507,7 @@ async def Xco19(c: Client, m: CallbackQuery):
 async def Xco20(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton("⌯ جوده متوسطه", callback_data="XXco39 " + str(m.from_user.id))] +
@@ -531,7 +531,7 @@ async def Xco20(c: Client, m: CallbackQuery):
 async def XXco1(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/121", reply_to_message_id=mid)
@@ -541,7 +541,7 @@ async def XXco1(c: Client, m: CallbackQuery):
 async def XXco2(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/122", reply_to_message_id=mid)
@@ -551,7 +551,7 @@ async def XXco2(c: Client, m: CallbackQuery):
 async def XXco3(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/123", reply_to_message_id=mid)
@@ -561,7 +561,7 @@ async def XXco3(c: Client, m: CallbackQuery):
 async def XXco4(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/124", reply_to_message_id=mid)
@@ -571,7 +571,7 @@ async def XXco4(c: Client, m: CallbackQuery):
 async def XXco5(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/125", reply_to_message_id=mid)
@@ -581,7 +581,7 @@ async def XXco5(c: Client, m: CallbackQuery):
 async def XXco6(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/126", reply_to_message_id=mid)
@@ -591,7 +591,7 @@ async def XXco6(c: Client, m: CallbackQuery):
 async def XXco7(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/127", reply_to_message_id=mid)
@@ -601,7 +601,7 @@ async def XXco7(c: Client, m: CallbackQuery):
 async def XXco8(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/128", reply_to_message_id=mid)
@@ -611,7 +611,7 @@ async def XXco8(c: Client, m: CallbackQuery):
 async def XXco9(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/129", reply_to_message_id=mid)
@@ -621,7 +621,7 @@ async def XXco9(c: Client, m: CallbackQuery):
 async def XXco10(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/130", reply_to_message_id=mid)
@@ -631,7 +631,7 @@ async def XXco10(c: Client, m: CallbackQuery):
 async def XXco11(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/131", reply_to_message_id=mid)
@@ -641,7 +641,7 @@ async def XXco11(c: Client, m: CallbackQuery):
 async def XXco12(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/132", reply_to_message_id=mid)
@@ -651,7 +651,7 @@ async def XXco12(c: Client, m: CallbackQuery):
 async def XXco13(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/133", reply_to_message_id=mid)
@@ -661,7 +661,7 @@ async def XXco13(c: Client, m: CallbackQuery):
 async def XXco14(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/134", reply_to_message_id=mid)
@@ -671,7 +671,7 @@ async def XXco14(c: Client, m: CallbackQuery):
 async def XXco15(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/135", reply_to_message_id=mid)
@@ -681,7 +681,7 @@ async def XXco15(c: Client, m: CallbackQuery):
 async def XXco16(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/136", reply_to_message_id=mid)
@@ -691,7 +691,7 @@ async def XXco16(c: Client, m: CallbackQuery):
 async def XXco17(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/137", reply_to_message_id=mid)
@@ -701,7 +701,7 @@ async def XXco17(c: Client, m: CallbackQuery):
 async def XXco18(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/139", reply_to_message_id=mid)
@@ -711,7 +711,7 @@ async def XXco18(c: Client, m: CallbackQuery):
 async def XXco19(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/140", reply_to_message_id=mid)
@@ -721,7 +721,7 @@ async def XXco19(c: Client, m: CallbackQuery):
 async def XXco20(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/141", reply_to_message_id=mid)
@@ -731,7 +731,7 @@ async def XXco20(c: Client, m: CallbackQuery):
 async def XXco21(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/142", reply_to_message_id=mid)
@@ -741,7 +741,7 @@ async def XXco21(c: Client, m: CallbackQuery):
 async def XXco22(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/143", reply_to_message_id=mid)
@@ -751,7 +751,7 @@ async def XXco22(c: Client, m: CallbackQuery):
 async def XXco23(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/144", reply_to_message_id=mid)
@@ -761,7 +761,7 @@ async def XXco23(c: Client, m: CallbackQuery):
 async def XXco24(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/145", reply_to_message_id=mid)
@@ -771,7 +771,7 @@ async def XXco24(c: Client, m: CallbackQuery):
 async def XXco25(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/146", reply_to_message_id=mid)
@@ -781,7 +781,7 @@ async def XXco25(c: Client, m: CallbackQuery):
 async def XXco26(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/147", reply_to_message_id=mid)
@@ -791,7 +791,7 @@ async def XXco26(c: Client, m: CallbackQuery):
 async def XXco27(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/148", reply_to_message_id=mid)
@@ -801,7 +801,7 @@ async def XXco27(c: Client, m: CallbackQuery):
 async def XXco28(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/149", reply_to_message_id=mid)
@@ -811,7 +811,7 @@ async def XXco28(c: Client, m: CallbackQuery):
 async def XXco29(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/150", reply_to_message_id=mid)
@@ -821,7 +821,7 @@ async def XXco29(c: Client, m: CallbackQuery):
 async def XXco30(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/151", reply_to_message_id=mid)
@@ -831,7 +831,7 @@ async def XXco30(c: Client, m: CallbackQuery):
 async def XXco31(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/152", reply_to_message_id=mid)
@@ -841,7 +841,7 @@ async def XXco31(c: Client, m: CallbackQuery):
 async def XXco32(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/153", reply_to_message_id=mid)
@@ -851,7 +851,7 @@ async def XXco32(c: Client, m: CallbackQuery):
 async def XXco33(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/154", reply_to_message_id=mid)
@@ -861,7 +861,7 @@ async def XXco33(c: Client, m: CallbackQuery):
 async def XXco34(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/155", reply_to_message_id=mid)
@@ -871,7 +871,7 @@ async def XXco34(c: Client, m: CallbackQuery):
 async def XXco35(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/156", reply_to_message_id=mid)
@@ -881,7 +881,7 @@ async def XXco35(c: Client, m: CallbackQuery):
 async def XXco36(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/157", reply_to_message_id=mid)
@@ -891,7 +891,7 @@ async def XXco36(c: Client, m: CallbackQuery):
 async def XXco37(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/158", reply_to_message_id=mid)
@@ -901,7 +901,7 @@ async def XXco37(c: Client, m: CallbackQuery):
 async def XXco38(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/159", reply_to_message_id=mid)
@@ -911,7 +911,7 @@ async def XXco38(c: Client, m: CallbackQuery):
 async def XXco39(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/160", reply_to_message_id=mid)
@@ -921,7 +921,7 @@ async def XXco39(c: Client, m: CallbackQuery):
 async def XXco40(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/161", reply_to_message_id=mid)
@@ -937,7 +937,7 @@ async def XXco40(c: Client, m: CallbackQuery):
 async def action(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
 
@@ -952,7 +952,7 @@ async def action(c: Client, m: CallbackQuery):
         [InlineKeyboardButton("وش سجون", callback_data="Xact9 " + str(m.from_user.id))],
 
         [InlineKeyboardButton("『𝐖𝐇𝐈𝐒𝐊𝐄𝐘 𝐓𝐍𝐓 ⏎ 』", callback_data="aflamAR2 " + str(m.from_user.id))],
-        [InlineKeyboardButton("⌞ 𝐇𝐀𝐘𝐀 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⚡", url=f"https://t.me/pp_g3")],
+        [InlineKeyboardButton("⌞ 𝐇𝐀𝐘𝐀 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⚡", url=f"https://t.me/lN_B_Fl")],
 
     ])
     await m.message.edit_text("اهلا بك في قائمة الافلام الاكشن العربيه", reply_markup=keyboard)
@@ -962,7 +962,7 @@ async def action(c: Client, m: CallbackQuery):
 async def Xact1(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton("⌯ جوده متوسطه", callback_data="XXact1 " + str(m.from_user.id))] +
@@ -982,7 +982,7 @@ async def Xact1(c: Client, m: CallbackQuery):
 async def Xact2(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton("⌯ جوده متوسطه", callback_data="XXact3 " + str(m.from_user.id))] +
@@ -1002,7 +1002,7 @@ async def Xact2(c: Client, m: CallbackQuery):
 async def Xact3(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton("⌯ جوده متوسطه", callback_data="XXact5 " + str(m.from_user.id))] +
@@ -1018,7 +1018,7 @@ async def Xact3(c: Client, m: CallbackQuery):
 async def Xact4(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton("⌯ جوده متوسطه", callback_data="XXact7 " + str(m.from_user.id))] +
@@ -1038,7 +1038,7 @@ async def Xact4(c: Client, m: CallbackQuery):
 async def Xact5(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton("⌯ جوده متوسطه", callback_data="XXact9 " + str(m.from_user.id))] +
@@ -1058,7 +1058,7 @@ async def Xact5(c: Client, m: CallbackQuery):
 async def Xact6(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton("⌯ جوده متوسطه", callback_data="XXact11 " + str(m.from_user.id))] +
@@ -1078,7 +1078,7 @@ async def Xact6(c: Client, m: CallbackQuery):
 async def Xact7(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton("⌯ جوده متوسطه", callback_data="XXact13 " + str(m.from_user.id))] +
@@ -1098,7 +1098,7 @@ async def Xact7(c: Client, m: CallbackQuery):
 async def Xact8(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton("⌯ جوده متوسطه", callback_data="XXact15 " + str(m.from_user.id))] +
@@ -1118,7 +1118,7 @@ async def Xact8(c: Client, m: CallbackQuery):
 async def Xact9(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton("⌯ جوده متوسطه", callback_data="XXact17 " + str(m.from_user.id))] +
@@ -1141,7 +1141,7 @@ async def Xact9(c: Client, m: CallbackQuery):
 async def XXact1(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/162", reply_to_message_id=mid)
@@ -1151,7 +1151,7 @@ async def XXact1(c: Client, m: CallbackQuery):
 async def XXact2(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/163", reply_to_message_id=mid)
@@ -1161,7 +1161,7 @@ async def XXact2(c: Client, m: CallbackQuery):
 async def XXact3(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/164", reply_to_message_id=mid)
@@ -1171,7 +1171,7 @@ async def XXact3(c: Client, m: CallbackQuery):
 async def XXact4(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/165", reply_to_message_id=mid)
@@ -1181,7 +1181,7 @@ async def XXact4(c: Client, m: CallbackQuery):
 async def XXact5(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/166", reply_to_message_id=mid)
@@ -1191,7 +1191,7 @@ async def XXact5(c: Client, m: CallbackQuery):
 async def XXact6(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/167", reply_to_message_id=mid)
@@ -1201,7 +1201,7 @@ async def XXact6(c: Client, m: CallbackQuery):
 async def XXact7(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/168", reply_to_message_id=mid)
@@ -1211,7 +1211,7 @@ async def XXact7(c: Client, m: CallbackQuery):
 async def XXact8(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/169", reply_to_message_id=mid)
@@ -1221,7 +1221,7 @@ async def XXact8(c: Client, m: CallbackQuery):
 async def XXact9(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/170", reply_to_message_id=mid)
@@ -1231,7 +1231,7 @@ async def XXact9(c: Client, m: CallbackQuery):
 async def XXact10(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/171", reply_to_message_id=mid)
@@ -1241,7 +1241,7 @@ async def XXact10(c: Client, m: CallbackQuery):
 async def XXact11(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/172", reply_to_message_id=mid)
@@ -1251,7 +1251,7 @@ async def XXact11(c: Client, m: CallbackQuery):
 async def XXact12(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/173", reply_to_message_id=mid)
@@ -1261,7 +1261,7 @@ async def XXact12(c: Client, m: CallbackQuery):
 async def XXact13(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/174", reply_to_message_id=mid)
@@ -1271,7 +1271,7 @@ async def XXact13(c: Client, m: CallbackQuery):
 async def XXact14(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/175", reply_to_message_id=mid)
@@ -1281,7 +1281,7 @@ async def XXact14(c: Client, m: CallbackQuery):
 async def XXact15(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/176", reply_to_message_id=mid)
@@ -1291,7 +1291,7 @@ async def XXact15(c: Client, m: CallbackQuery):
 async def XXact16(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/177", reply_to_message_id=mid)
@@ -1301,7 +1301,7 @@ async def XXact16(c: Client, m: CallbackQuery):
 async def XXact17(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/178", reply_to_message_id=mid)
@@ -1311,7 +1311,7 @@ async def XXact17(c: Client, m: CallbackQuery):
 async def XXact18(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/179", reply_to_message_id=mid)
@@ -1327,7 +1327,7 @@ async def XXact18(c: Client, m: CallbackQuery):
 async def drama(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
 
@@ -1338,7 +1338,7 @@ async def drama(c: Client, m: CallbackQuery):
         [InlineKeyboardButton("⌯ خان تيولا", callback_data="Xdra5 " + str(m.from_user.id))],
 
         [InlineKeyboardButton("『𝐖𝐇𝐈𝐒𝐊𝐄𝐘 𝐓𝐍𝐓 ⏎ 』", callback_data="aflamAR2 " + str(m.from_user.id))],
-        [InlineKeyboardButton("⌞ 𝐇𝐀𝐘𝐀 • 𝙎𝙊𝙐??𝘾𝙀 ⌝⚡", url=f"https://t.me/pp_g3")],
+        [InlineKeyboardButton("⌞ 𝐇𝐀𝐘𝐀 • 𝙎𝙊𝙐??𝘾𝙀 ⌝⚡", url=f"https://t.me/lN_B_Fl")],
 
     ])
     await m.message.edit_text("اهلا بك في قائمة الافلام الدراما العربيه", reply_markup=keyboard)
@@ -1348,7 +1348,7 @@ async def drama(c: Client, m: CallbackQuery):
 async def Xdra1(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton("⌯ جوده متوسطه", callback_data="XXdra1 " + str(m.from_user.id))] +
@@ -1368,7 +1368,7 @@ async def Xdra1(c: Client, m: CallbackQuery):
 async def Xdra2(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton("⌯ جوده متوسطه", callback_data="XXdra3 " + str(m.from_user.id))] +
@@ -1388,7 +1388,7 @@ async def Xdra2(c: Client, m: CallbackQuery):
 async def Xdra3(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton("⌯ جوده متوسطه", callback_data="XXdra5 " + str(m.from_user.id))] +
@@ -1408,7 +1408,7 @@ async def Xdra3(c: Client, m: CallbackQuery):
 async def Xdra4(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton("⌯ جوده متوسطه", callback_data="XXdra7 " + str(m.from_user.id))] +
@@ -1428,7 +1428,7 @@ async def Xdra4(c: Client, m: CallbackQuery):
 async def Xdra5(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
         [InlineKeyboardButton("⌯ جوده متوسطه", callback_data="XXdra9 " + str(m.from_user.id))] +
@@ -1451,7 +1451,7 @@ async def Xdra5(c: Client, m: CallbackQuery):
 async def XXdra1(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/180", reply_to_message_id=mid)
@@ -1461,7 +1461,7 @@ async def XXdra1(c: Client, m: CallbackQuery):
 async def XXdra2(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/181", reply_to_message_id=mid)
@@ -1471,7 +1471,7 @@ async def XXdra2(c: Client, m: CallbackQuery):
 async def XXdra3(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/182", reply_to_message_id=mid)
@@ -1481,7 +1481,7 @@ async def XXdra3(c: Client, m: CallbackQuery):
 async def XXdra4(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/183", reply_to_message_id=mid)
@@ -1491,7 +1491,7 @@ async def XXdra4(c: Client, m: CallbackQuery):
 async def XXdra5(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/184", reply_to_message_id=mid)
@@ -1501,7 +1501,7 @@ async def XXdra5(c: Client, m: CallbackQuery):
 async def XXdra6(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/185", reply_to_message_id=mid)
@@ -1511,7 +1511,7 @@ async def XXdra6(c: Client, m: CallbackQuery):
 async def XXdra7(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/186", reply_to_message_id=mid)
@@ -1521,7 +1521,7 @@ async def XXdra7(c: Client, m: CallbackQuery):
 async def XXdra8(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/187", reply_to_message_id=mid)
@@ -1531,7 +1531,7 @@ async def XXdra8(c: Client, m: CallbackQuery):
 async def XXdra9(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/188", reply_to_message_id=mid)
@@ -1541,7 +1541,7 @@ async def XXdra9(c: Client, m: CallbackQuery):
 async def XXdra10(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/189", reply_to_message_id=mid)
@@ -1565,7 +1565,7 @@ async def XXdra10(c: Client, m: CallbackQuery):
 async def moslsl(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
 
@@ -1577,7 +1577,7 @@ async def moslsl(c: Client, m: CallbackQuery):
         [InlineKeyboardButton("ابو العروسة 📼", callback_data="Xmos5 " + str(m.from_user.id))],
 
         [InlineKeyboardButton("『𝐖𝐇𝐈𝐒𝐊𝐄𝐘 𝐓𝐍𝐓 ⏎ 』", callback_data="aflamAR2 " + str(m.from_user.id))],
-        [InlineKeyboardButton("⌞ 𝐇𝐀𝐘𝐀 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⚡", url=f"https://t.me/pp_g3")],
+        [InlineKeyboardButton("⌞ 𝐇𝐀𝐘𝐀 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⚡", url=f"https://t.me/lN_B_Fl")],
 
     ])
     await m.message.edit_text("◍ اهلا بيك في قائمة المسلسلات العربيه\n√", reply_markup=keyboard)
@@ -1587,7 +1587,7 @@ async def moslsl(c: Client, m: CallbackQuery):
 async def Xmos1(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
 
@@ -1606,7 +1606,7 @@ async def Xmos1(c: Client, m: CallbackQuery):
         [InlineKeyboardButton("⌯ الحلقة 13", callback_data="Zmos226 " + str(m.from_user.id))],
 
         [InlineKeyboardButton("『𝐖𝐇𝐈𝐒𝐊𝐄𝐘 𝐓𝐍𝐓 ⏎ 』", callback_data="moslsl " + str(m.from_user.id))],
-        [InlineKeyboardButton("⌞ 𝐇𝐀𝐘𝐀 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⚡", url=f"https://t.me/pp_g3")],
+        [InlineKeyboardButton("⌞ 𝐇𝐀𝐘𝐀 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⚡", url=f"https://t.me/lN_B_Fl")],
 
     ])
     await m.message.edit_text("◍ اهلا بيك في مسلسل 📼 حشمت في البيت الأبيض\n√", reply_markup=keyboard)
@@ -1616,7 +1616,7 @@ async def Xmos1(c: Client, m: CallbackQuery):
 async def Xmos2(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
 
@@ -1652,7 +1652,7 @@ async def Xmos2(c: Client, m: CallbackQuery):
         [InlineKeyboardButton("⌯ الحلقة 30", callback_data="Zmos258 " + str(m.from_user.id))],
 
         [InlineKeyboardButton("『𝐖𝐇𝐈𝐒𝐊𝐄𝐘 𝐓𝐍𝐓 ⏎ 』", callback_data="moslsl " + str(m.from_user.id))],
-        [InlineKeyboardButton("⌞ 𝐇𝐀𝐘𝐀 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⚡", url=f"https://t.me/pp_g3")],
+        [InlineKeyboardButton("⌞ 𝐇𝐀𝐘𝐀 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⚡", url=f"https://t.me/lN_B_Fl")],
 
     ])
     await m.message.edit_text("◍ اهلا بيك في مسلسل 📼 2- لعبة النسيان\n√", reply_markup=keyboard)
@@ -1662,7 +1662,7 @@ async def Xmos2(c: Client, m: CallbackQuery):
 async def Xmos3(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
 
@@ -1698,7 +1698,7 @@ async def Xmos3(c: Client, m: CallbackQuery):
         [InlineKeyboardButton("⌯ الحلقة 30", callback_data="Zmos290 " + str(m.from_user.id))],
 
         [InlineKeyboardButton("『𝐖𝐇𝐈𝐒𝐊𝐄𝐘 𝐓𝐍𝐓 ⏎ 』", callback_data="moslsl " + str(m.from_user.id))],
-        [InlineKeyboardButton("⌞ 𝐇𝐀𝐘𝐀 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⚡", url=f"https://t.me/pp_g3")],
+        [InlineKeyboardButton("⌞ 𝐇𝐀𝐘𝐀 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⚡", url=f"https://t.me/lN_B_Fl")],
 
     ])
     await m.message.edit_text("◍ اهلا بيك في مسلسل 📼 3- ب 100 وش\n√", reply_markup=keyboard)
@@ -1708,7 +1708,7 @@ async def Xmos3(c: Client, m: CallbackQuery):
 async def Xmos4(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
 
@@ -1744,7 +1744,7 @@ async def Xmos4(c: Client, m: CallbackQuery):
         [InlineKeyboardButton("⌯ الحلقة 30", callback_data="Zmos322 " + str(m.from_user.id))],
 
         [InlineKeyboardButton("『𝐖𝐇𝐈𝐒𝐊𝐄𝐘 𝐓𝐍𝐓 ⏎ 』", callback_data="moslsl " + str(m.from_user.id))],
-        [InlineKeyboardButton("⌞ 𝐇𝐀𝐘𝐀 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⚡", url=f"https://t.me/pp_g3")],
+        [InlineKeyboardButton("⌞ 𝐇𝐀𝐘𝐀 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⚡", url=f"https://t.me/lN_B_Fl")],
 
     ])
     await m.message.edit_text("◍ اهلا بيك في مسلسل 📼 4- آدم\n√", reply_markup=keyboard)
@@ -1754,7 +1754,7 @@ async def Xmos4(c: Client, m: CallbackQuery):
 async def Xmos5(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
 
@@ -1820,7 +1820,7 @@ async def Xmos5(c: Client, m: CallbackQuery):
         [InlineKeyboardButton("⌯ الحلقة 60", callback_data="Zmos384 " + str(m.from_user.id))],
 
         [InlineKeyboardButton("『𝐖𝐇𝐈𝐒𝐊𝐄𝐘 𝐓𝐍𝐓 ⏎ 』", callback_data="moslsl " + str(m.from_user.id))],
-        [InlineKeyboardButton("⌞ 𝐇𝐀𝐘𝐀 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⚡", url=f"https://t.me/pp_g3")],
+        [InlineKeyboardButton("⌞ 𝐇𝐀𝐘𝐀 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⚡", url=f"https://t.me/lN_B_Fl")],
 
     ])
     await m.message.edit_text("◍ اهلا بيك في مسلسل 📼 6-ابو العروسة\n√", reply_markup=keyboard)
@@ -1830,7 +1830,7 @@ async def Xmos5(c: Client, m: CallbackQuery):
 async def toba(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
 
@@ -1866,7 +1866,7 @@ async def toba(c: Client, m: CallbackQuery):
         [InlineKeyboardButton("⌯ الحلقة 30", callback_data="toba30 " + str(m.from_user.id))],
 
         [InlineKeyboardButton("『𝐖𝐇𝐈𝐒𝐊𝐄𝐘 𝐓𝐍𝐓 ⏎ 』", callback_data="moslsl " + str(m.from_user.id))],
-        [InlineKeyboardButton("⌞ 𝐇𝐀𝐘𝐀 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⚡", url=f"https://t.me/pp_g3")],
+        [InlineKeyboardButton("⌞ 𝐇𝐀𝐘𝐀 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⚡", url=f"https://t.me/lN_B_Fl")],
 
     ])
     await m.message.edit_text("◍ اهلا بيك في مسلسل 📼 5-توبه\n√", reply_markup=keyboard)
@@ -1877,7 +1877,7 @@ async def toba(c: Client, m: CallbackQuery):
 async def Zmos214(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/190", reply_to_message_id=mid)
@@ -1887,7 +1887,7 @@ async def Zmos214(c: Client, m: CallbackQuery):
 async def Zmos215(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/191", reply_to_message_id=mid)
@@ -1897,7 +1897,7 @@ async def Zmos215(c: Client, m: CallbackQuery):
 async def Zmos216(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/192", reply_to_message_id=mid)
@@ -1907,7 +1907,7 @@ async def Zmos216(c: Client, m: CallbackQuery):
 async def Zmos217(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/193", reply_to_message_id=mid)
@@ -1917,7 +1917,7 @@ async def Zmos217(c: Client, m: CallbackQuery):
 async def Zmos218(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/194", reply_to_message_id=mid)
@@ -1927,7 +1927,7 @@ async def Zmos218(c: Client, m: CallbackQuery):
 async def Zmos219(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/195", reply_to_message_id=mid)
@@ -1937,7 +1937,7 @@ async def Zmos219(c: Client, m: CallbackQuery):
 async def Zmos220(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/196", reply_to_message_id=mid)
@@ -1947,7 +1947,7 @@ async def Zmos220(c: Client, m: CallbackQuery):
 async def Zmos221(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/197", reply_to_message_id=mid)
@@ -1957,7 +1957,7 @@ async def Zmos221(c: Client, m: CallbackQuery):
 async def Zmos222(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/198", reply_to_message_id=mid)
@@ -1967,7 +1967,7 @@ async def Zmos222(c: Client, m: CallbackQuery):
 async def Zmos223(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/200", reply_to_message_id=mid)
@@ -1977,7 +1977,7 @@ async def Zmos223(c: Client, m: CallbackQuery):
 async def Zmos224(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/201", reply_to_message_id=mid)
@@ -1987,7 +1987,7 @@ async def Zmos224(c: Client, m: CallbackQuery):
 async def Zmos225(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/202", reply_to_message_id=mid)
@@ -1997,7 +1997,7 @@ async def Zmos225(c: Client, m: CallbackQuery):
 async def Zmos226(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/203", reply_to_message_id=mid)
@@ -2007,7 +2007,7 @@ async def Zmos226(c: Client, m: CallbackQuery):
 async def Zmos228(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/205", reply_to_message_id=mid)
@@ -2017,7 +2017,7 @@ async def Zmos228(c: Client, m: CallbackQuery):
 async def Zmos229(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/205", reply_to_message_id=mid)
@@ -2027,7 +2027,7 @@ async def Zmos229(c: Client, m: CallbackQuery):
 async def Zmos230(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/206", reply_to_message_id=mid)
@@ -2037,7 +2037,7 @@ async def Zmos230(c: Client, m: CallbackQuery):
 async def Zmos231(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/207", reply_to_message_id=mid)
@@ -2047,7 +2047,7 @@ async def Zmos231(c: Client, m: CallbackQuery):
 async def Zmos232(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/208", reply_to_message_id=mid)
@@ -2057,7 +2057,7 @@ async def Zmos232(c: Client, m: CallbackQuery):
 async def Zmos233(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/209", reply_to_message_id=mid)
@@ -2067,7 +2067,7 @@ async def Zmos233(c: Client, m: CallbackQuery):
 async def Zmos234(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/210", reply_to_message_id=mid)
@@ -2077,7 +2077,7 @@ async def Zmos234(c: Client, m: CallbackQuery):
 async def Zmos235(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/211", reply_to_message_id=mid)
@@ -2087,7 +2087,7 @@ async def Zmos235(c: Client, m: CallbackQuery):
 async def Zmos236(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/212", reply_to_message_id=mid)
@@ -2097,7 +2097,7 @@ async def Zmos236(c: Client, m: CallbackQuery):
 async def Zmos237(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/213", reply_to_message_id=mid)
@@ -2107,7 +2107,7 @@ async def Zmos237(c: Client, m: CallbackQuery):
 async def Zmos238(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/214", reply_to_message_id=mid)
@@ -2117,7 +2117,7 @@ async def Zmos238(c: Client, m: CallbackQuery):
 async def Zmos239(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/215", reply_to_message_id=mid)
@@ -2127,7 +2127,7 @@ async def Zmos239(c: Client, m: CallbackQuery):
 async def Zmos240(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/216", reply_to_message_id=mid)
@@ -2137,7 +2137,7 @@ async def Zmos240(c: Client, m: CallbackQuery):
 async def Zmos241(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/217", reply_to_message_id=mid)
@@ -2147,7 +2147,7 @@ async def Zmos241(c: Client, m: CallbackQuery):
 async def Zmos242(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/218", reply_to_message_id=mid)
@@ -2157,7 +2157,7 @@ async def Zmos242(c: Client, m: CallbackQuery):
 async def Zmos243(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/219", reply_to_message_id=mid)
@@ -2167,7 +2167,7 @@ async def Zmos243(c: Client, m: CallbackQuery):
 async def Zmos244(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/220", reply_to_message_id=mid)
@@ -2177,7 +2177,7 @@ async def Zmos244(c: Client, m: CallbackQuery):
 async def Zmos245(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/221", reply_to_message_id=mid)
@@ -2187,7 +2187,7 @@ async def Zmos245(c: Client, m: CallbackQuery):
 async def Zmos246(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/222", reply_to_message_id=mid)
@@ -2197,7 +2197,7 @@ async def Zmos246(c: Client, m: CallbackQuery):
 async def Zmos247(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/223", reply_to_message_id=mid)
@@ -2207,7 +2207,7 @@ async def Zmos247(c: Client, m: CallbackQuery):
 async def Zmos248(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/224", reply_to_message_id=mid)
@@ -2217,7 +2217,7 @@ async def Zmos248(c: Client, m: CallbackQuery):
 async def Zmos249(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/225", reply_to_message_id=mid)
@@ -2227,7 +2227,7 @@ async def Zmos249(c: Client, m: CallbackQuery):
 async def Zmos250(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/226", reply_to_message_id=mid)
@@ -2237,7 +2237,7 @@ async def Zmos250(c: Client, m: CallbackQuery):
 async def Zmos251(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/227", reply_to_message_id=mid)
@@ -2247,7 +2247,7 @@ async def Zmos251(c: Client, m: CallbackQuery):
 async def Zmos252(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/228", reply_to_message_id=mid)
@@ -2257,7 +2257,7 @@ async def Zmos252(c: Client, m: CallbackQuery):
 async def Zmos253(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/229", reply_to_message_id=mid)
@@ -2267,7 +2267,7 @@ async def Zmos253(c: Client, m: CallbackQuery):
 async def Zmos254(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/230", reply_to_message_id=mid)
@@ -2277,7 +2277,7 @@ async def Zmos254(c: Client, m: CallbackQuery):
 async def Zmos255(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/231", reply_to_message_id=mid)
@@ -2287,7 +2287,7 @@ async def Zmos255(c: Client, m: CallbackQuery):
 async def Zmos256(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/232", reply_to_message_id=mid)
@@ -2297,7 +2297,7 @@ async def Zmos256(c: Client, m: CallbackQuery):
 async def Zmos257(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/233", reply_to_message_id=mid)
@@ -2307,7 +2307,7 @@ async def Zmos257(c: Client, m: CallbackQuery):
 async def Zmos258(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/Musicah4/234", reply_to_message_id=mid)
@@ -2317,7 +2317,7 @@ async def Zmos258(c: Client, m: CallbackQuery):
 async def Zmos261(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/261", reply_to_message_id=mid)
@@ -2327,7 +2327,7 @@ async def Zmos261(c: Client, m: CallbackQuery):
 async def Zmos262(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/262", reply_to_message_id=mid)
@@ -2337,7 +2337,7 @@ async def Zmos262(c: Client, m: CallbackQuery):
 async def Zmos263(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/263", reply_to_message_id=mid)
@@ -2347,7 +2347,7 @@ async def Zmos263(c: Client, m: CallbackQuery):
 async def Zmos264(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/264", reply_to_message_id=mid)
@@ -2357,7 +2357,7 @@ async def Zmos264(c: Client, m: CallbackQuery):
 async def Zmos265(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/265", reply_to_message_id=mid)
@@ -2367,7 +2367,7 @@ async def Zmos265(c: Client, m: CallbackQuery):
 async def Zmos266(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/266", reply_to_message_id=mid)
@@ -2377,7 +2377,7 @@ async def Zmos266(c: Client, m: CallbackQuery):
 async def Zmos267(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/267", reply_to_message_id=mid)
@@ -2387,7 +2387,7 @@ async def Zmos267(c: Client, m: CallbackQuery):
 async def Zmos268(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/268", reply_to_message_id=mid)
@@ -2397,7 +2397,7 @@ async def Zmos268(c: Client, m: CallbackQuery):
 async def Zmos269(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/269", reply_to_message_id=mid)
@@ -2407,7 +2407,7 @@ async def Zmos269(c: Client, m: CallbackQuery):
 async def Zmos270(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/270", reply_to_message_id=mid)
@@ -2417,7 +2417,7 @@ async def Zmos270(c: Client, m: CallbackQuery):
 async def Zmos271(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/271", reply_to_message_id=mid)
@@ -2427,7 +2427,7 @@ async def Zmos271(c: Client, m: CallbackQuery):
 async def Zmos272(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/272", reply_to_message_id=mid)
@@ -2437,7 +2437,7 @@ async def Zmos272(c: Client, m: CallbackQuery):
 async def Zmos273(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/273", reply_to_message_id=mid)
@@ -2447,7 +2447,7 @@ async def Zmos273(c: Client, m: CallbackQuery):
 async def Zmos274(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/274", reply_to_message_id=mid)
@@ -2457,7 +2457,7 @@ async def Zmos274(c: Client, m: CallbackQuery):
 async def Zmos275(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/275", reply_to_message_id=mid)
@@ -2467,7 +2467,7 @@ async def Zmos275(c: Client, m: CallbackQuery):
 async def Zmos276(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/276", reply_to_message_id=mid)
@@ -2477,7 +2477,7 @@ async def Zmos276(c: Client, m: CallbackQuery):
 async def Zmos277(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/277", reply_to_message_id=mid)
@@ -2487,7 +2487,7 @@ async def Zmos277(c: Client, m: CallbackQuery):
 async def Zmos278(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/278", reply_to_message_id=mid)
@@ -2497,7 +2497,7 @@ async def Zmos278(c: Client, m: CallbackQuery):
 async def Zmos279(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/279", reply_to_message_id=mid)
@@ -2507,7 +2507,7 @@ async def Zmos279(c: Client, m: CallbackQuery):
 async def Zmos280(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/280", reply_to_message_id=mid)
@@ -2517,7 +2517,7 @@ async def Zmos280(c: Client, m: CallbackQuery):
 async def Zmos281(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/281", reply_to_message_id=mid)
@@ -2527,7 +2527,7 @@ async def Zmos281(c: Client, m: CallbackQuery):
 async def Zmos282(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/282", reply_to_message_id=mid)
@@ -2537,7 +2537,7 @@ async def Zmos282(c: Client, m: CallbackQuery):
 async def Zmos283(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/283", reply_to_message_id=mid)
@@ -2547,7 +2547,7 @@ async def Zmos283(c: Client, m: CallbackQuery):
 async def Zmos284(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/284", reply_to_message_id=mid)
@@ -2557,7 +2557,7 @@ async def Zmos284(c: Client, m: CallbackQuery):
 async def Zmos285(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/285", reply_to_message_id=mid)
@@ -2567,7 +2567,7 @@ async def Zmos285(c: Client, m: CallbackQuery):
 async def Zmos286(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/286", reply_to_message_id=mid)
@@ -2577,7 +2577,7 @@ async def Zmos286(c: Client, m: CallbackQuery):
 async def Zmos287(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/287", reply_to_message_id=mid)
@@ -2587,7 +2587,7 @@ async def Zmos287(c: Client, m: CallbackQuery):
 async def Zmos288(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/288", reply_to_message_id=mid)
@@ -2597,7 +2597,7 @@ async def Zmos288(c: Client, m: CallbackQuery):
 async def Zmos289(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/289", reply_to_message_id=mid)
@@ -2607,7 +2607,7 @@ async def Zmos289(c: Client, m: CallbackQuery):
 async def Zmos290(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/290", reply_to_message_id=mid)
@@ -2617,7 +2617,7 @@ async def Zmos290(c: Client, m: CallbackQuery):
 async def Zmos293(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/293", reply_to_message_id=mid)
@@ -2627,7 +2627,7 @@ async def Zmos293(c: Client, m: CallbackQuery):
 async def Zmos294(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/294", reply_to_message_id=mid)
@@ -2637,7 +2637,7 @@ async def Zmos294(c: Client, m: CallbackQuery):
 async def Zmos295(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/295", reply_to_message_id=mid)
@@ -2647,7 +2647,7 @@ async def Zmos295(c: Client, m: CallbackQuery):
 async def Zmos296(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/296", reply_to_message_id=mid)
@@ -2657,7 +2657,7 @@ async def Zmos296(c: Client, m: CallbackQuery):
 async def Zmos297(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/297", reply_to_message_id=mid)
@@ -2667,7 +2667,7 @@ async def Zmos297(c: Client, m: CallbackQuery):
 async def Zmos298(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/298", reply_to_message_id=mid)
@@ -2677,7 +2677,7 @@ async def Zmos298(c: Client, m: CallbackQuery):
 async def Zmos299(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/299", reply_to_message_id=mid)
@@ -2687,7 +2687,7 @@ async def Zmos299(c: Client, m: CallbackQuery):
 async def Zmos300(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/300", reply_to_message_id=mid)
@@ -2697,7 +2697,7 @@ async def Zmos300(c: Client, m: CallbackQuery):
 async def Zmos301(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/301", reply_to_message_id=mid)
@@ -2707,7 +2707,7 @@ async def Zmos301(c: Client, m: CallbackQuery):
 async def Zmos302(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/302", reply_to_message_id=mid)
@@ -2717,7 +2717,7 @@ async def Zmos302(c: Client, m: CallbackQuery):
 async def Zmos303(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/303", reply_to_message_id=mid)
@@ -2727,7 +2727,7 @@ async def Zmos303(c: Client, m: CallbackQuery):
 async def Zmos304(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/304", reply_to_message_id=mid)
@@ -2737,7 +2737,7 @@ async def Zmos304(c: Client, m: CallbackQuery):
 async def Zmos305(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/305", reply_to_message_id=mid)
@@ -2747,7 +2747,7 @@ async def Zmos305(c: Client, m: CallbackQuery):
 async def Zmos306(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/306", reply_to_message_id=mid)
@@ -2757,7 +2757,7 @@ async def Zmos306(c: Client, m: CallbackQuery):
 async def Zmos307(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/307", reply_to_message_id=mid)
@@ -2767,7 +2767,7 @@ async def Zmos307(c: Client, m: CallbackQuery):
 async def Zmos308(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/308", reply_to_message_id=mid)
@@ -2777,7 +2777,7 @@ async def Zmos308(c: Client, m: CallbackQuery):
 async def Zmos309(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/309", reply_to_message_id=mid)
@@ -2787,7 +2787,7 @@ async def Zmos309(c: Client, m: CallbackQuery):
 async def Zmos310(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/310", reply_to_message_id=mid)
@@ -2797,7 +2797,7 @@ async def Zmos310(c: Client, m: CallbackQuery):
 async def Zmos311(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/311", reply_to_message_id=mid)
@@ -2807,7 +2807,7 @@ async def Zmos311(c: Client, m: CallbackQuery):
 async def Zmos312(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/312", reply_to_message_id=mid)
@@ -2817,7 +2817,7 @@ async def Zmos312(c: Client, m: CallbackQuery):
 async def Zmos313(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/313", reply_to_message_id=mid)
@@ -2827,7 +2827,7 @@ async def Zmos313(c: Client, m: CallbackQuery):
 async def Zmos314(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/314", reply_to_message_id=mid)
@@ -2837,7 +2837,7 @@ async def Zmos314(c: Client, m: CallbackQuery):
 async def Zmos315(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/315", reply_to_message_id=mid)
@@ -2847,7 +2847,7 @@ async def Zmos315(c: Client, m: CallbackQuery):
 async def Zmos316(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/316", reply_to_message_id=mid)
@@ -2857,7 +2857,7 @@ async def Zmos316(c: Client, m: CallbackQuery):
 async def Zmos317(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/317", reply_to_message_id=mid)
@@ -2867,7 +2867,7 @@ async def Zmos317(c: Client, m: CallbackQuery):
 async def Zmos318(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/318", reply_to_message_id=mid)
@@ -2877,7 +2877,7 @@ async def Zmos318(c: Client, m: CallbackQuery):
 async def Zmos319(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/319", reply_to_message_id=mid)
@@ -2887,7 +2887,7 @@ async def Zmos319(c: Client, m: CallbackQuery):
 async def Zmos320(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/320", reply_to_message_id=mid)
@@ -2897,7 +2897,7 @@ async def Zmos320(c: Client, m: CallbackQuery):
 async def Zmos321(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/321", reply_to_message_id=mid)
@@ -2907,7 +2907,7 @@ async def Zmos321(c: Client, m: CallbackQuery):
 async def Zmos322(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/322", reply_to_message_id=mid)
@@ -2917,7 +2917,7 @@ async def Zmos322(c: Client, m: CallbackQuery):
 async def Zmos325(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/325", reply_to_message_id=mid)
@@ -2927,7 +2927,7 @@ async def Zmos325(c: Client, m: CallbackQuery):
 async def Zmos326(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/326", reply_to_message_id=mid)
@@ -2937,7 +2937,7 @@ async def Zmos326(c: Client, m: CallbackQuery):
 async def Zmos327(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/327", reply_to_message_id=mid)
@@ -2947,7 +2947,7 @@ async def Zmos327(c: Client, m: CallbackQuery):
 async def Zmos328(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/328", reply_to_message_id=mid)
@@ -2957,7 +2957,7 @@ async def Zmos328(c: Client, m: CallbackQuery):
 async def Zmos329(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/329", reply_to_message_id=mid)
@@ -2967,7 +2967,7 @@ async def Zmos329(c: Client, m: CallbackQuery):
 async def Zmos330(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/330", reply_to_message_id=mid)
@@ -2977,7 +2977,7 @@ async def Zmos330(c: Client, m: CallbackQuery):
 async def Zmos331(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/331", reply_to_message_id=mid)
@@ -2987,7 +2987,7 @@ async def Zmos331(c: Client, m: CallbackQuery):
 async def Zmos332(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/332", reply_to_message_id=mid)
@@ -2997,7 +2997,7 @@ async def Zmos332(c: Client, m: CallbackQuery):
 async def Zmos333(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/333", reply_to_message_id=mid)
@@ -3007,7 +3007,7 @@ async def Zmos333(c: Client, m: CallbackQuery):
 async def Zmos334(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/334", reply_to_message_id=mid)
@@ -3017,7 +3017,7 @@ async def Zmos334(c: Client, m: CallbackQuery):
 async def Zmos335(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/335", reply_to_message_id=mid)
@@ -3027,7 +3027,7 @@ async def Zmos335(c: Client, m: CallbackQuery):
 async def Zmos336(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/336", reply_to_message_id=mid)
@@ -3037,7 +3037,7 @@ async def Zmos336(c: Client, m: CallbackQuery):
 async def Zmos337(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/337", reply_to_message_id=mid)
@@ -3047,7 +3047,7 @@ async def Zmos337(c: Client, m: CallbackQuery):
 async def Zmos338(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/338", reply_to_message_id=mid)
@@ -3057,7 +3057,7 @@ async def Zmos338(c: Client, m: CallbackQuery):
 async def Zmos339(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/339", reply_to_message_id=mid)
@@ -3067,7 +3067,7 @@ async def Zmos339(c: Client, m: CallbackQuery):
 async def Zmos340(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/340", reply_to_message_id=mid)
@@ -3077,7 +3077,7 @@ async def Zmos340(c: Client, m: CallbackQuery):
 async def Zmos341(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/341", reply_to_message_id=mid)
@@ -3087,7 +3087,7 @@ async def Zmos341(c: Client, m: CallbackQuery):
 async def Zmos342(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/342", reply_to_message_id=mid)
@@ -3097,7 +3097,7 @@ async def Zmos342(c: Client, m: CallbackQuery):
 async def Zmos343(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/343", reply_to_message_id=mid)
@@ -3107,7 +3107,7 @@ async def Zmos343(c: Client, m: CallbackQuery):
 async def Zmos344(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/344", reply_to_message_id=mid)
@@ -3117,7 +3117,7 @@ async def Zmos344(c: Client, m: CallbackQuery):
 async def Zmos345(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/345", reply_to_message_id=mid)
@@ -3127,7 +3127,7 @@ async def Zmos345(c: Client, m: CallbackQuery):
 async def Zmos346(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/346", reply_to_message_id=mid)
@@ -3137,7 +3137,7 @@ async def Zmos346(c: Client, m: CallbackQuery):
 async def Zmos347(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/347", reply_to_message_id=mid)
@@ -3147,7 +3147,7 @@ async def Zmos347(c: Client, m: CallbackQuery):
 async def Zmos348(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/348", reply_to_message_id=mid)
@@ -3157,7 +3157,7 @@ async def Zmos348(c: Client, m: CallbackQuery):
 async def Zmos349(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/349", reply_to_message_id=mid)
@@ -3167,7 +3167,7 @@ async def Zmos349(c: Client, m: CallbackQuery):
 async def Zmos350(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/350", reply_to_message_id=mid)
@@ -3177,7 +3177,7 @@ async def Zmos350(c: Client, m: CallbackQuery):
 async def Zmos351(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/351", reply_to_message_id=mid)
@@ -3187,7 +3187,7 @@ async def Zmos351(c: Client, m: CallbackQuery):
 async def Zmos352(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/352", reply_to_message_id=mid)
@@ -3197,7 +3197,7 @@ async def Zmos352(c: Client, m: CallbackQuery):
 async def Zmos353(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/353", reply_to_message_id=mid)
@@ -3207,7 +3207,7 @@ async def Zmos353(c: Client, m: CallbackQuery):
 async def Zmos354(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/354", reply_to_message_id=mid)
@@ -3217,7 +3217,7 @@ async def Zmos354(c: Client, m: CallbackQuery):
 async def Zmos355(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/355", reply_to_message_id=mid)
@@ -3227,7 +3227,7 @@ async def Zmos355(c: Client, m: CallbackQuery):
 async def Zmos356(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/356", reply_to_message_id=mid)
@@ -3237,7 +3237,7 @@ async def Zmos356(c: Client, m: CallbackQuery):
 async def Zmos357(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/357", reply_to_message_id=mid)
@@ -3247,7 +3247,7 @@ async def Zmos357(c: Client, m: CallbackQuery):
 async def Zmos358(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/358", reply_to_message_id=mid)
@@ -3257,7 +3257,7 @@ async def Zmos358(c: Client, m: CallbackQuery):
 async def Zmos359(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/359", reply_to_message_id=mid)
@@ -3267,7 +3267,7 @@ async def Zmos359(c: Client, m: CallbackQuery):
 async def Zmos360(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/360", reply_to_message_id=mid)
@@ -3277,7 +3277,7 @@ async def Zmos360(c: Client, m: CallbackQuery):
 async def Zmos361(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/361", reply_to_message_id=mid)
@@ -3287,7 +3287,7 @@ async def Zmos361(c: Client, m: CallbackQuery):
 async def Zmos362(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/362", reply_to_message_id=mid)
@@ -3297,7 +3297,7 @@ async def Zmos362(c: Client, m: CallbackQuery):
 async def Zmos363(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/363", reply_to_message_id=mid)
@@ -3307,7 +3307,7 @@ async def Zmos363(c: Client, m: CallbackQuery):
 async def Zmos364(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/364", reply_to_message_id=mid)
@@ -3317,7 +3317,7 @@ async def Zmos364(c: Client, m: CallbackQuery):
 async def Zmos365(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/365", reply_to_message_id=mid)
@@ -3327,7 +3327,7 @@ async def Zmos365(c: Client, m: CallbackQuery):
 async def Zmos366(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/366", reply_to_message_id=mid)
@@ -3337,7 +3337,7 @@ async def Zmos366(c: Client, m: CallbackQuery):
 async def Zmos367(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/367", reply_to_message_id=mid)
@@ -3347,7 +3347,7 @@ async def Zmos367(c: Client, m: CallbackQuery):
 async def Zmos368(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/368", reply_to_message_id=mid)
@@ -3357,7 +3357,7 @@ async def Zmos368(c: Client, m: CallbackQuery):
 async def Zmos369(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/369", reply_to_message_id=mid)
@@ -3367,7 +3367,7 @@ async def Zmos369(c: Client, m: CallbackQuery):
 async def Zmos370(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/370", reply_to_message_id=mid)
@@ -3377,7 +3377,7 @@ async def Zmos370(c: Client, m: CallbackQuery):
 async def Zmos371(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/371", reply_to_message_id=mid)
@@ -3387,7 +3387,7 @@ async def Zmos371(c: Client, m: CallbackQuery):
 async def Zmos372(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/372", reply_to_message_id=mid)
@@ -3397,7 +3397,7 @@ async def Zmos372(c: Client, m: CallbackQuery):
 async def Zmos373(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/373", reply_to_message_id=mid)
@@ -3407,7 +3407,7 @@ async def Zmos373(c: Client, m: CallbackQuery):
 async def Zmos374(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/374", reply_to_message_id=mid)
@@ -3417,7 +3417,7 @@ async def Zmos374(c: Client, m: CallbackQuery):
 async def Zmos375(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/375", reply_to_message_id=mid)
@@ -3427,7 +3427,7 @@ async def Zmos375(c: Client, m: CallbackQuery):
 async def Zmos376(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/376", reply_to_message_id=mid)
@@ -3437,7 +3437,7 @@ async def Zmos376(c: Client, m: CallbackQuery):
 async def Zmos377(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/377", reply_to_message_id=mid)
@@ -3450,7 +3450,7 @@ async def Zmos377(c: Client, m: CallbackQuery):
 async def Zmos382(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/382", reply_to_message_id=mid)
@@ -3460,7 +3460,7 @@ async def Zmos382(c: Client, m: CallbackQuery):
 async def Zmos383(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/383", reply_to_message_id=mid)
@@ -3470,7 +3470,7 @@ async def Zmos383(c: Client, m: CallbackQuery):
 async def Zmos384(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/384", reply_to_message_id=mid)
@@ -3480,7 +3480,7 @@ async def Zmos384(c: Client, m: CallbackQuery):
 async def toba1(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/FFMMTTFF/7", reply_to_message_id=mid)
@@ -3490,7 +3490,7 @@ async def toba1(c: Client, m: CallbackQuery):
 async def toba2(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/FFMMTTFF/8", reply_to_message_id=mid)
@@ -3500,7 +3500,7 @@ async def toba2(c: Client, m: CallbackQuery):
 async def toba3(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/FFMMTTFF/9", reply_to_message_id=mid)
@@ -3510,7 +3510,7 @@ async def toba3(c: Client, m: CallbackQuery):
 async def toba4(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/FFMMTTFF/10", reply_to_message_id=mid)
@@ -3520,7 +3520,7 @@ async def toba4(c: Client, m: CallbackQuery):
 async def toba5(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/FFMMTTFF/11", reply_to_message_id=mid)
@@ -3530,7 +3530,7 @@ async def toba5(c: Client, m: CallbackQuery):
 async def toba6(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/FFMMTTFF/12", reply_to_message_id=mid)
@@ -3540,7 +3540,7 @@ async def toba6(c: Client, m: CallbackQuery):
 async def toba7(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/FFMMTTFF/13", reply_to_message_id=mid)
@@ -3550,7 +3550,7 @@ async def toba7(c: Client, m: CallbackQuery):
 async def toba8(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/FFMMTTFF/14", reply_to_message_id=mid)
@@ -3560,7 +3560,7 @@ async def toba8(c: Client, m: CallbackQuery):
 async def toba9(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/FFMMTTFF/15", reply_to_message_id=mid)
@@ -3570,7 +3570,7 @@ async def toba9(c: Client, m: CallbackQuery):
 async def toba10(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/FFMMTTFF/16", reply_to_message_id=mid)
@@ -3580,7 +3580,7 @@ async def toba10(c: Client, m: CallbackQuery):
 async def toba11(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/FFMMTTFF/17", reply_to_message_id=mid)
@@ -3590,7 +3590,7 @@ async def toba11(c: Client, m: CallbackQuery):
 async def toba12(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/FFMMTTFF/18", reply_to_message_id=mid)
@@ -3600,7 +3600,7 @@ async def toba12(c: Client, m: CallbackQuery):
 async def toba13(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/FFMMTTFF/19", reply_to_message_id=mid)
@@ -3610,7 +3610,7 @@ async def toba13(c: Client, m: CallbackQuery):
 async def toba14(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/FFMMTTFF/20", reply_to_message_id=mid)
@@ -3620,7 +3620,7 @@ async def toba14(c: Client, m: CallbackQuery):
 async def toba15(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/FFMMTTFF/21", reply_to_message_id=mid)
@@ -3630,7 +3630,7 @@ async def toba15(c: Client, m: CallbackQuery):
 async def toba16(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/FFMMTTFF/22", reply_to_message_id=mid)
@@ -3640,7 +3640,7 @@ async def toba16(c: Client, m: CallbackQuery):
 async def toba17(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/FFMMTTFF/23", reply_to_message_id=mid)
@@ -3650,7 +3650,7 @@ async def toba17(c: Client, m: CallbackQuery):
 async def toba18(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/FFMMTTFF/24", reply_to_message_id=mid)
@@ -3660,7 +3660,7 @@ async def toba18(c: Client, m: CallbackQuery):
 async def toba19(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/FFMMTTFF/25", reply_to_message_id=mid)
@@ -3670,7 +3670,7 @@ async def toba19(c: Client, m: CallbackQuery):
 async def toba20(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/FFMMTTFF/26", reply_to_message_id=mid)
@@ -3680,7 +3680,7 @@ async def toba20(c: Client, m: CallbackQuery):
 async def toba21(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/FFMMTTFF/27", reply_to_message_id=mid)
@@ -3690,7 +3690,7 @@ async def toba21(c: Client, m: CallbackQuery):
 async def toba22(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/FFMMTTFF/28", reply_to_message_id=mid)
@@ -3700,7 +3700,7 @@ async def toba22(c: Client, m: CallbackQuery):
 async def toba23(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/FFMMTTFF/29", reply_to_message_id=mid)
@@ -3710,7 +3710,7 @@ async def toba23(c: Client, m: CallbackQuery):
 async def toba24(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/FFMMTTFF/30", reply_to_message_id=mid)
@@ -3720,7 +3720,7 @@ async def toba24(c: Client, m: CallbackQuery):
 async def toba25(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/FFMMTTFF/31", reply_to_message_id=mid)
@@ -3730,7 +3730,7 @@ async def toba25(c: Client, m: CallbackQuery):
 async def toba26(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/FFMMTTFF/32", reply_to_message_id=mid)
@@ -3740,7 +3740,7 @@ async def toba26(c: Client, m: CallbackQuery):
 async def toba27(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/FFMMTTFF/33", reply_to_message_id=mid)
@@ -3750,7 +3750,7 @@ async def toba27(c: Client, m: CallbackQuery):
 async def toba28(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/FFMMTTFF/34", reply_to_message_id=mid)
@@ -3761,7 +3761,7 @@ async def toba28(c: Client, m: CallbackQuery):
 async def toba29(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/FFMMTTFF/35", reply_to_message_id=mid)
@@ -3771,7 +3771,7 @@ async def toba29(c: Client, m: CallbackQuery):
 async def toba30(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/FFMMTTFF/36", reply_to_message_id=mid)
@@ -3801,14 +3801,14 @@ async def toba30(c: Client, m: CallbackQuery):
 async def msrahia(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
 
         [InlineKeyboardButton("🎭 1- مسرح مصر", callback_data="Xms1 " + str(m.from_user.id))],
 
         [InlineKeyboardButton("『𝐖𝐇𝐈𝐒𝐊𝐄𝐘 𝐓𝐍𝐓 ⏎ 』", callback_data="aflamAR2 " + str(m.from_user.id))],
-        [InlineKeyboardButton("⌞ 𝐇𝐀𝐘𝐀 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⚡", url=f"https://t.me/pp_g3")],
+        [InlineKeyboardButton("⌞ 𝐇𝐀𝐘𝐀 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⚡", url=f"https://t.me/lN_B_Fl")],
 
     ])
     await m.message.edit_text("◍ اهلا بيك في قائمة المسرحيات العربيه\n√", reply_markup=keyboard)
@@ -3818,7 +3818,7 @@ async def msrahia(c: Client, m: CallbackQuery):
 async def Xms1(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
 
@@ -3829,7 +3829,7 @@ async def Xms1(c: Client, m: CallbackQuery):
         [InlineKeyboardButton("الجزء الخامس 🎭", callback_data="Xmsrh5 " + str(m.from_user.id))],
 
         [InlineKeyboardButton("『𝐖𝐇𝐈𝐒𝐊𝐄𝐘 𝐓𝐍𝐓 ⏎ 』", callback_data="msrahia " + str(m.from_user.id))],
-        [InlineKeyboardButton("⌞ 𝐇𝐀𝐘𝐀 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⚡", url=f"https://t.me/pp_g3")],
+        [InlineKeyboardButton("⌞ 𝐇𝐀𝐘𝐀 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⚡", url=f"https://t.me/lN_B_Fl")],
 
     ])
     await m.message.edit_text("◍ اهلا بيك في قائمة اجزاء مسرح مصر\n√", reply_markup=keyboard)
@@ -3839,7 +3839,7 @@ async def Xms1(c: Client, m: CallbackQuery):
 async def Xmsrh1(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
 
@@ -3862,7 +3862,7 @@ async def Xmsrh1(c: Client, m: CallbackQuery):
         [InlineKeyboardButton("⌯ الحلقة 17", callback_data="Zmsrh404 " + str(m.from_user.id))],
 
         [InlineKeyboardButton("『𝐖𝐇𝐈𝐒𝐊𝐄𝐘 𝐓𝐍𝐓 ⏎ 』", callback_data="Xms1 " + str(m.from_user.id))],
-        [InlineKeyboardButton("⌞ 𝐇𝐀𝐘𝐀 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⚡", url=f"https://t.me/pp_g3")],
+        [InlineKeyboardButton("⌞ 𝐇𝐀𝐘𝐀 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⚡", url=f"https://t.me/lN_B_Fl")],
 
     ])
     await m.message.edit_text("◍ اهلا بيك في قائمه 🔘 | روايات والقصص |\n√", reply_markup=keyboard)
@@ -3873,7 +3873,7 @@ async def Xmsrh1(c: Client, m: CallbackQuery):
 async def Xmsrh2(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
 
@@ -3893,7 +3893,7 @@ async def Xmsrh2(c: Client, m: CallbackQuery):
         [InlineKeyboardButton("⌯ الحلقة 14", callback_data="Zmsrh419 " + str(m.from_user.id))],
 
         [InlineKeyboardButton("『𝐖𝐇𝐈𝐒𝐊𝐄𝐘 𝐓𝐍𝐓 ⏎ 』", callback_data="Xms1 " + str(m.from_user.id))],
-        [InlineKeyboardButton("⌞ 𝐇𝐀𝐘𝐀 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⚡", url=f"https://t.me/pp_g3")],
+        [InlineKeyboardButton("⌞ 𝐇𝐀𝐘𝐀 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⚡", url=f"https://t.me/lN_B_Fl")],
 
     ])
     await m.message.edit_text("◍ اهلا بيك في قائمه 🔘 | روايات والقصص |\n√", reply_markup=keyboard)
@@ -3904,7 +3904,7 @@ async def Xmsrh2(c: Client, m: CallbackQuery):
 async def Xmsrh3(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
 
@@ -3932,7 +3932,7 @@ async def Xmsrh3(c: Client, m: CallbackQuery):
         [InlineKeyboardButton("⌯ الحلقة 22", callback_data="Zmsrh442 " + str(m.from_user.id))],
 
         [InlineKeyboardButton("『𝐖𝐇𝐈𝐒𝐊𝐄𝐘 𝐓𝐍𝐓 ⏎ 』", callback_data="Xms1 " + str(m.from_user.id))],
-        [InlineKeyboardButton("⌞ 𝐇𝐀𝐘𝐀 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⚡", url=f"https://t.me/pp_g3")],
+        [InlineKeyboardButton("⌞ 𝐇𝐀𝐘𝐀 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⚡", url=f"https://t.me/lN_B_Fl")],
 
     ])
     await m.message.edit_text("◍ اهلا بيك في قائمه 🔘 | روايات والقصص |\n√", reply_markup=keyboard)
@@ -3943,7 +3943,7 @@ async def Xmsrh3(c: Client, m: CallbackQuery):
 async def Xmsrh4(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
 
@@ -3962,7 +3962,7 @@ async def Xmsrh4(c: Client, m: CallbackQuery):
         [InlineKeyboardButton("⌯ الحلقة 13", callback_data="Zmsrh456 " + str(m.from_user.id))],
 
         [InlineKeyboardButton("『𝐖𝐇𝐈𝐒𝐊𝐄𝐘 𝐓𝐍𝐓 ⏎ 』", callback_data="Xms1 " + str(m.from_user.id))],
-        [InlineKeyboardButton("⌞ 𝐇𝐀𝐘𝐀 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⚡", url=f"https://t.me/pp_g3")],
+        [InlineKeyboardButton("⌞ 𝐇𝐀𝐘𝐀 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⚡", url=f"https://t.me/lN_B_Fl")],
 
     ])
     await m.message.edit_text("◍ اهلا بيك في قائمه 🔘 | روايات والقصص |\n√", reply_markup=keyboard)
@@ -3973,7 +3973,7 @@ async def Xmsrh4(c: Client, m: CallbackQuery):
 async def Xmsrh5(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
 
@@ -4001,7 +4001,7 @@ async def Xmsrh5(c: Client, m: CallbackQuery):
         [InlineKeyboardButton("⌯ الحلقة 22", callback_data="Zmsrh488 " + str(m.from_user.id))],
 
         [InlineKeyboardButton("『𝐖𝐇𝐈𝐒𝐊𝐄𝐘 𝐓𝐍𝐓 ⏎ 』", callback_data="Xms1 " + str(m.from_user.id))],
-        [InlineKeyboardButton("⌞ 𝐇𝐀𝐘𝐀 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⚡", url=f"https://t.me/pp_g3")],
+        [InlineKeyboardButton("⌞ 𝐇𝐀𝐘𝐀 • 𝙎𝙊𝙐𝙍𝘾𝙀 ⌝⚡", url=f"https://t.me/lN_B_Fl")],
 
     ])
     await m.message.edit_text("◍ اهلا بيك في قائمه 🔘 | روايات والقصص |\n√", reply_markup=keyboard)
@@ -4013,7 +4013,7 @@ async def Xmsrh5(c: Client, m: CallbackQuery):
 async def Zmsrh388(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/388", reply_to_message_id=mid)
@@ -4023,7 +4023,7 @@ async def Zmsrh388(c: Client, m: CallbackQuery):
 async def Zmsrh389(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/389", reply_to_message_id=mid)
@@ -4033,7 +4033,7 @@ async def Zmsrh389(c: Client, m: CallbackQuery):
 async def Zmsrh390(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/390", reply_to_message_id=mid)
@@ -4043,7 +4043,7 @@ async def Zmsrh390(c: Client, m: CallbackQuery):
 async def Zmsrh391(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/391", reply_to_message_id=mid)
@@ -4053,7 +4053,7 @@ async def Zmsrh391(c: Client, m: CallbackQuery):
 async def Zmsrh392(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/392", reply_to_message_id=mid)
@@ -4063,7 +4063,7 @@ async def Zmsrh392(c: Client, m: CallbackQuery):
 async def Zmsrh393(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/393", reply_to_message_id=mid)
@@ -4073,7 +4073,7 @@ async def Zmsrh393(c: Client, m: CallbackQuery):
 async def Zmsrh394(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/394", reply_to_message_id=mid)
@@ -4083,7 +4083,7 @@ async def Zmsrh394(c: Client, m: CallbackQuery):
 async def Zmsrh395(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/395", reply_to_message_id=mid)
@@ -4093,7 +4093,7 @@ async def Zmsrh395(c: Client, m: CallbackQuery):
 async def Zmsrh396(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/396", reply_to_message_id=mid)
@@ -4103,7 +4103,7 @@ async def Zmsrh396(c: Client, m: CallbackQuery):
 async def Zmsrh397(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/397", reply_to_message_id=mid)
@@ -4113,7 +4113,7 @@ async def Zmsrh397(c: Client, m: CallbackQuery):
 async def Zmsrh398(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/398", reply_to_message_id=mid)
@@ -4123,7 +4123,7 @@ async def Zmsrh398(c: Client, m: CallbackQuery):
 async def Zmsrh399(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/399", reply_to_message_id=mid)
@@ -4133,7 +4133,7 @@ async def Zmsrh399(c: Client, m: CallbackQuery):
 async def Zmsrh400(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/400", reply_to_message_id=mid)
@@ -4143,7 +4143,7 @@ async def Zmsrh400(c: Client, m: CallbackQuery):
 async def Zmsrh401(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/401", reply_to_message_id=mid)
@@ -4153,7 +4153,7 @@ async def Zmsrh401(c: Client, m: CallbackQuery):
 async def Zmsrh402(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/402", reply_to_message_id=mid)
@@ -4163,7 +4163,7 @@ async def Zmsrh402(c: Client, m: CallbackQuery):
 async def Zmsrh403(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/403", reply_to_message_id=mid)
@@ -4173,7 +4173,7 @@ async def Zmsrh403(c: Client, m: CallbackQuery):
 async def Zmsrh404(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/404", reply_to_message_id=mid)
@@ -4183,7 +4183,7 @@ async def Zmsrh404(c: Client, m: CallbackQuery):
 async def Zmsrh406(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/406", reply_to_message_id=mid)
@@ -4193,7 +4193,7 @@ async def Zmsrh406(c: Client, m: CallbackQuery):
 async def Zmsrh407(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/407", reply_to_message_id=mid)
@@ -4203,7 +4203,7 @@ async def Zmsrh407(c: Client, m: CallbackQuery):
 async def Zmsrh408(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/408", reply_to_message_id=mid)
@@ -4213,7 +4213,7 @@ async def Zmsrh408(c: Client, m: CallbackQuery):
 async def Zmsrh409(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/409", reply_to_message_id=mid)
@@ -4223,7 +4223,7 @@ async def Zmsrh409(c: Client, m: CallbackQuery):
 async def Zmsrh410(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/410", reply_to_message_id=mid)
@@ -4233,7 +4233,7 @@ async def Zmsrh410(c: Client, m: CallbackQuery):
 async def Zmsrh411(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/411", reply_to_message_id=mid)
@@ -4243,7 +4243,7 @@ async def Zmsrh411(c: Client, m: CallbackQuery):
 async def Zmsrh412(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/412", reply_to_message_id=mid)
@@ -4253,7 +4253,7 @@ async def Zmsrh412(c: Client, m: CallbackQuery):
 async def Zmsrh413(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/413", reply_to_message_id=mid)
@@ -4263,7 +4263,7 @@ async def Zmsrh413(c: Client, m: CallbackQuery):
 async def Zmsrh414(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/414", reply_to_message_id=mid)
@@ -4273,7 +4273,7 @@ async def Zmsrh414(c: Client, m: CallbackQuery):
 async def Zmsrh415(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/415", reply_to_message_id=mid)
@@ -4283,7 +4283,7 @@ async def Zmsrh415(c: Client, m: CallbackQuery):
 async def Zmsrh416(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/416", reply_to_message_id=mid)
@@ -4293,7 +4293,7 @@ async def Zmsrh416(c: Client, m: CallbackQuery):
 async def Zmsrh417(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/417", reply_to_message_id=mid)
@@ -4303,7 +4303,7 @@ async def Zmsrh417(c: Client, m: CallbackQuery):
 async def Zmsrh418(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/418", reply_to_message_id=mid)
@@ -4313,7 +4313,7 @@ async def Zmsrh418(c: Client, m: CallbackQuery):
 async def Zmsrh419(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/419", reply_to_message_id=mid)
@@ -4323,7 +4323,7 @@ async def Zmsrh419(c: Client, m: CallbackQuery):
 async def Zmsrh421(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/421", reply_to_message_id=mid)
@@ -4333,7 +4333,7 @@ async def Zmsrh421(c: Client, m: CallbackQuery):
 async def Zmsrh422(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/422", reply_to_message_id=mid)
@@ -4343,7 +4343,7 @@ async def Zmsrh422(c: Client, m: CallbackQuery):
 async def Zmsrh423(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/423", reply_to_message_id=mid)
@@ -4353,7 +4353,7 @@ async def Zmsrh423(c: Client, m: CallbackQuery):
 async def Zmsrh424(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/424", reply_to_message_id=mid)
@@ -4363,7 +4363,7 @@ async def Zmsrh424(c: Client, m: CallbackQuery):
 async def Zmsrh425(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/425", reply_to_message_id=mid)
@@ -4373,7 +4373,7 @@ async def Zmsrh425(c: Client, m: CallbackQuery):
 async def Zmsrh426(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/426", reply_to_message_id=mid)
@@ -4383,7 +4383,7 @@ async def Zmsrh426(c: Client, m: CallbackQuery):
 async def Zmsrh427(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/427", reply_to_message_id=mid)
@@ -4393,7 +4393,7 @@ async def Zmsrh427(c: Client, m: CallbackQuery):
 async def Zmsrh428(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/428", reply_to_message_id=mid)
@@ -4403,7 +4403,7 @@ async def Zmsrh428(c: Client, m: CallbackQuery):
 async def Zmsrh429(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/429", reply_to_message_id=mid)
@@ -4413,7 +4413,7 @@ async def Zmsrh429(c: Client, m: CallbackQuery):
 async def Zmsrh430(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/430", reply_to_message_id=mid)
@@ -4423,7 +4423,7 @@ async def Zmsrh430(c: Client, m: CallbackQuery):
 async def Zmsrh431(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/431", reply_to_message_id=mid)
@@ -4433,7 +4433,7 @@ async def Zmsrh431(c: Client, m: CallbackQuery):
 async def Zmsrh432(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/432", reply_to_message_id=mid)
@@ -4443,7 +4443,7 @@ async def Zmsrh432(c: Client, m: CallbackQuery):
 async def Zmsrh433(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/433", reply_to_message_id=mid)
@@ -4453,7 +4453,7 @@ async def Zmsrh433(c: Client, m: CallbackQuery):
 async def Zmsrh434(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/434", reply_to_message_id=mid)
@@ -4463,7 +4463,7 @@ async def Zmsrh434(c: Client, m: CallbackQuery):
 async def Zmsrh435(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/435", reply_to_message_id=mid)
@@ -4473,7 +4473,7 @@ async def Zmsrh435(c: Client, m: CallbackQuery):
 async def Zmsrh436(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/436", reply_to_message_id=mid)
@@ -4483,7 +4483,7 @@ async def Zmsrh436(c: Client, m: CallbackQuery):
 async def Zmsrh437(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/437", reply_to_message_id=mid)
@@ -4493,7 +4493,7 @@ async def Zmsrh437(c: Client, m: CallbackQuery):
 async def Zmsrh438(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/438", reply_to_message_id=mid)
@@ -4503,7 +4503,7 @@ async def Zmsrh438(c: Client, m: CallbackQuery):
 async def Zmsrh439(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/439", reply_to_message_id=mid)
@@ -4513,7 +4513,7 @@ async def Zmsrh439(c: Client, m: CallbackQuery):
 async def Zmsrh440(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/440", reply_to_message_id=mid)
@@ -4523,7 +4523,7 @@ async def Zmsrh440(c: Client, m: CallbackQuery):
 async def Zmsrh441(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/441", reply_to_message_id=mid)
@@ -4533,7 +4533,7 @@ async def Zmsrh441(c: Client, m: CallbackQuery):
 async def Zmsrh442(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/442", reply_to_message_id=mid)
@@ -4543,7 +4543,7 @@ async def Zmsrh442(c: Client, m: CallbackQuery):
 async def Zmsrh444(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/444", reply_to_message_id=mid)
@@ -4553,7 +4553,7 @@ async def Zmsrh444(c: Client, m: CallbackQuery):
 async def Zmsrh445(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/445", reply_to_message_id=mid)
@@ -4563,7 +4563,7 @@ async def Zmsrh445(c: Client, m: CallbackQuery):
 async def Zmsrh446(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/446", reply_to_message_id=mid)
@@ -4573,7 +4573,7 @@ async def Zmsrh446(c: Client, m: CallbackQuery):
 async def Zmsrh447(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇??𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/447", reply_to_message_id=mid)
@@ -4583,7 +4583,7 @@ async def Zmsrh447(c: Client, m: CallbackQuery):
 async def Zmsrh448(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/448", reply_to_message_id=mid)
@@ -4593,7 +4593,7 @@ async def Zmsrh448(c: Client, m: CallbackQuery):
 async def Zmsrh449(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/449", reply_to_message_id=mid)
@@ -4603,7 +4603,7 @@ async def Zmsrh449(c: Client, m: CallbackQuery):
 async def Zmsrh450(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/450", reply_to_message_id=mid)
@@ -4613,7 +4613,7 @@ async def Zmsrh450(c: Client, m: CallbackQuery):
 async def Zmsrh451(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/451", reply_to_message_id=mid)
@@ -4623,7 +4623,7 @@ async def Zmsrh451(c: Client, m: CallbackQuery):
 async def Zmsrh452(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/452", reply_to_message_id=mid)
@@ -4633,7 +4633,7 @@ async def Zmsrh452(c: Client, m: CallbackQuery):
 async def Zmsrh453(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/453", reply_to_message_id=mid)
@@ -4643,7 +4643,7 @@ async def Zmsrh453(c: Client, m: CallbackQuery):
 async def Zmsrh454(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/454", reply_to_message_id=mid)
@@ -4653,7 +4653,7 @@ async def Zmsrh454(c: Client, m: CallbackQuery):
 async def Zmsrh455(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/455", reply_to_message_id=mid)
@@ -4663,7 +4663,7 @@ async def Zmsrh455(c: Client, m: CallbackQuery):
 async def Zmsrh456(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/456", reply_to_message_id=mid)
@@ -4673,7 +4673,7 @@ async def Zmsrh456(c: Client, m: CallbackQuery):
 async def Zmsrh467(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/467", reply_to_message_id=mid)
@@ -4683,7 +4683,7 @@ async def Zmsrh467(c: Client, m: CallbackQuery):
 async def Zmsrh468(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/468", reply_to_message_id=mid)
@@ -4693,7 +4693,7 @@ async def Zmsrh468(c: Client, m: CallbackQuery):
 async def Zmsrh469(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/469", reply_to_message_id=mid)
@@ -4703,7 +4703,7 @@ async def Zmsrh469(c: Client, m: CallbackQuery):
 async def Zmsrh470(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/470", reply_to_message_id=mid)
@@ -4713,7 +4713,7 @@ async def Zmsrh470(c: Client, m: CallbackQuery):
 async def Zmsrh471(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/471", reply_to_message_id=mid)
@@ -4723,7 +4723,7 @@ async def Zmsrh471(c: Client, m: CallbackQuery):
 async def Zmsrh472(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/472", reply_to_message_id=mid)
@@ -4733,7 +4733,7 @@ async def Zmsrh472(c: Client, m: CallbackQuery):
 async def Zmsrh473(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/473", reply_to_message_id=mid)
@@ -4743,7 +4743,7 @@ async def Zmsrh473(c: Client, m: CallbackQuery):
 async def Zmsrh474(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/474", reply_to_message_id=mid)
@@ -4753,7 +4753,7 @@ async def Zmsrh474(c: Client, m: CallbackQuery):
 async def Zmsrh475(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/475", reply_to_message_id=mid)
@@ -4763,7 +4763,7 @@ async def Zmsrh475(c: Client, m: CallbackQuery):
 async def Zmsrh476(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/476", reply_to_message_id=mid)
@@ -4773,7 +4773,7 @@ async def Zmsrh476(c: Client, m: CallbackQuery):
 async def Zmsrh477(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/477", reply_to_message_id=mid)
@@ -4783,7 +4783,7 @@ async def Zmsrh477(c: Client, m: CallbackQuery):
 async def Zmsrh478(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/478", reply_to_message_id=mid)
@@ -4793,7 +4793,7 @@ async def Zmsrh478(c: Client, m: CallbackQuery):
 async def Zmsrh479(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/479", reply_to_message_id=mid)
@@ -4803,7 +4803,7 @@ async def Zmsrh479(c: Client, m: CallbackQuery):
 async def Zmsrh480(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/480", reply_to_message_id=mid)
@@ -4813,7 +4813,7 @@ async def Zmsrh480(c: Client, m: CallbackQuery):
 async def Zmsrh481(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/481", reply_to_message_id=mid)
@@ -4823,7 +4823,7 @@ async def Zmsrh481(c: Client, m: CallbackQuery):
 async def Zmsrh482(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/482", reply_to_message_id=mid)
@@ -4833,7 +4833,7 @@ async def Zmsrh482(c: Client, m: CallbackQuery):
 async def Zmsrh483(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/483", reply_to_message_id=mid)
@@ -4843,7 +4843,7 @@ async def Zmsrh483(c: Client, m: CallbackQuery):
 async def Zmsrh484(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/484", reply_to_message_id=mid)
@@ -4853,7 +4853,7 @@ async def Zmsrh484(c: Client, m: CallbackQuery):
 async def Zmsrh485(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/485", reply_to_message_id=mid)
@@ -4863,7 +4863,7 @@ async def Zmsrh485(c: Client, m: CallbackQuery):
 async def Zmsrh486(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/486", reply_to_message_id=mid)
@@ -4873,7 +4873,7 @@ async def Zmsrh486(c: Client, m: CallbackQuery):
 async def Zmsrh487(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/487", reply_to_message_id=mid)
@@ -4883,7 +4883,7 @@ async def Zmsrh487(c: Client, m: CallbackQuery):
 async def Zmsrh488(c: Client, m: CallbackQuery):
     a = m.data.split(" ")
     if m.from_user.id != int(a[1]):
-        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر 🖤🙂", show_alert=True)
+        await c.answer_callback_query(m.id, text="صاحب الامر هو فقط من يستطيع الضغط على الزر🖤🙂⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺", show_alert=True)
         return
     await m.message.delete()
     await m.message.reply_audio("https://t.me/UMoslsl/488", reply_to_message_id=mid)
