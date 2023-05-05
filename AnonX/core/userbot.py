@@ -1,4 +1,3 @@
-
 import sys
 
 from pyrogram import Client
@@ -12,7 +11,7 @@ assistantids = []
 
 
 class Userbot(Client):
-    def init(self):
+    def __init__(self):
         self.one = Client(
             api_id=config.API_ID,
             api_hash=config.API_HASH,
@@ -45,7 +44,7 @@ class Userbot(Client):
         )
 
     async def start(self):
-        LOGGER(name).info(f"Gettings Assistants Info...")
+        LOGGER(__name__).info(f"Gettings Assistants Info...")
         if config.STRING1:
             await self.one.start()
             try:
@@ -65,15 +64,15 @@ class Userbot(Client):
                 )
             else:
                 self.one.name = get_me.first_name
-            LOGGER(name).info(
+            LOGGER(__name__).info(
                 f"Assistant Started as {self.one.name}"
             )
             try:
                 await self.one.send_message(
-                    config.LOG_GROUP_ID, f"*⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺*\n*» {config.MUSIC_BOT_NAME} ᴀssɪsᴛᴀɴᴛ ᴏɴᴇ sᴛᴀʀᴛᴇᴅ :**\n\n✨ ɪᴅ : {self.one.id}\n❄ ɴᴀᴍᴇ : {self.one.name}\n💫 ᴜsᴇʀɴᴀᴍᴇ : @{self.one.username}"
+                    config.LOG_GROUP_ID, f"**» {config.MUSIC_BOT_NAME} ᴀssɪsᴛᴀɴᴛ ᴏɴᴇ sᴛᴀʀᴛᴇᴅ :**\n\n✨ ɪᴅ : `{self.one.id}`\n❄ ɴᴀᴍᴇ : {self.one.name}\n💫 ᴜsᴇʀɴᴀᴍᴇ : @{self.one.username}"
                 )
             except:
-                LOGGER(name).error(
+                LOGGER(__name__).error(
                     f"Assistant Account 1 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin ! "
                 )
                 sys.exit()
@@ -98,16 +97,14 @@ class Userbot(Client):
                 self.two.name = get_me.first_name
             try:
                 await self.two.send_message(
-                    config.LOG_GROUP_ID, f"*⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺*\n*» {config.MUSIC_BOT_NAME} ᴀssɪsᴛᴀɴᴛ ᴛᴡᴏ sᴛᴀʀᴛᴇᴅ :**\n\n✨ ɪᴅ : {self.two.id}\n❄ ɴᴀᴍᴇ : {self.two.name}\n💫 ᴜsᴇʀɴᴀᴍᴇ : @{self.two.username}"
+                    config.LOG_GROUP_ID, f"**» {config.MUSIC_BOT_NAME} ᴀssɪsᴛᴀɴᴛ ᴛᴡᴏ sᴛᴀʀᴛᴇᴅ :**\n\n✨ ɪᴅ : `{self.two.id}`\n❄ ɴᴀᴍᴇ : {self.two.name}\n💫 ᴜsᴇʀɴᴀᴍᴇ : @{self.two.username}"
                 )
             except:
-                LOGGER(name).error(
+                LOGGER(__name__).error(
                     f"Assistant Account 2 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin ! "
-
-
-)
+                )
                 sys.exit()
-            LOGGER(name).info(
+            LOGGER(__name__).info(
                 f"Assistant Two Started as {self.two.name}"
             )
         if config.STRING3:
@@ -131,14 +128,14 @@ class Userbot(Client):
                 self.three.name = get_me.first_name
             try:
                 await self.three.send_message(
-                    config.LOG_GROUP_ID, f"*⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺*\n*» {config.MUSIC_BOT_NAME} ᴀssɪsᴛᴀɴᴛ ᴛʜʀᴇᴇ sᴛᴀʀᴛᴇᴅ :**\n\n✨ ɪᴅ : {self.three.id}\n❄ ɴᴀᴍᴇ : {self.three.name}\n💫 ᴜsᴇʀɴᴀᴍᴇ : @{self.three.username}"
+                    config.LOG_GROUP_ID, f"**» {config.MUSIC_BOT_NAME} ᴀssɪsᴛᴀɴᴛ ᴛʜʀᴇᴇ sᴛᴀʀᴛᴇᴅ :**\n\n✨ ɪᴅ : `{self.three.id}`\n❄ ɴᴀᴍᴇ : {self.three.name}\n💫 ᴜsᴇʀɴᴀᴍᴇ : @{self.three.username}"
                 )
             except:
-                LOGGER(name).error(
+                LOGGER(__name__).error(
                     f"Assistant Account 3 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin ! "
                 )
                 sys.exit()
-            LOGGER(name).info(
+            LOGGER(__name__).info(
                 f"Assistant Three Started as {self.three.name}"
             )
         if config.STRING4:
@@ -162,14 +159,14 @@ class Userbot(Client):
                 self.four.name = get_me.first_name
             try:
                 await self.four.send_message(
-                    config.LOG_GROUP_ID, f"*⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺*\n*» {config.MUSIC_BOT_NAME} ᴀssɪsᴛᴀɴᴛ ғᴏᴜʀ sᴛᴀʀᴛᴇᴅ :**\n\n✨ ɪᴅ : {self.four.id}\n❄ ɴᴀᴍᴇ : {self.four.name}\n💫 ᴜsᴇʀɴᴀᴍᴇ : @{self.four.username}"
+                    config.LOG_GROUP_ID, f"**» {config.MUSIC_BOT_NAME} ᴀssɪsᴛᴀɴᴛ ғᴏᴜʀ sᴛᴀʀᴛᴇᴅ :**\n\n✨ ɪᴅ : `{self.four.id}`\n❄ ɴᴀᴍᴇ : {self.four.name}\n💫 ᴜsᴇʀɴᴀᴍᴇ : @{self.four.username}"
                 )
             except:
-                LOGGER(name).error(
+                LOGGER(__name__).error(
                     f"Assistant Account 4 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin ! "
                 )
                 sys.exit()
-            LOGGER(name).info(
+            LOGGER(__name__).info(
                 f"Assistant Four Started as {self.four.name}"
             )
         if config.STRING5:
@@ -193,15 +190,13 @@ class Userbot(Client):
                 self.five.name = get_me.first_name
             try:
                 await self.five.send_message(
-                    config.LOG_GROUP_ID, f"*⩹━★⊷⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐇𝐀𝐘𝐀 ⌯⊶★━⩺*\n» {config.MUSIC_BOT_NAME} ᴀssɪsᴛᴀɴᴛ ғɪᴠᴇ sᴛᴀʀᴛᴇᴅ :**\n\n✨ ɪᴅ : {self.five.id}\n❄ ɴᴀᴍᴇ : {self.five.name}\n💫 ᴜsᴇʀɴᴀᴍᴇ : @{self.five.username}"
-
-
-)
+                    config.LOG_GROUP_ID, f"**» {config.MUSIC_BOT_NAME} ᴀssɪsᴛᴀɴᴛ ғɪᴠᴇ sᴛᴀʀᴛᴇᴅ :**\n\n✨ ɪᴅ : `{self.five.id}`\n❄ ɴᴀᴍᴇ : {self.five.name}\n💫 ᴜsᴇʀɴᴀᴍᴇ : @{self.five.username}"
+                )
             except:
-                LOGGER(name).error(
-                    f"Assistant Account 5 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin ! Source HaYa"
+                LOGGER(__name__).error(
+                    f"Assistant Account 5 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin ! "
                 )
                 sys.exit()
-            LOGGER(name).info(
+            LOGGER(__name__).info(
                 f"Assistant Five Started as {self.five.name}"
             )
