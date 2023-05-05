@@ -89,14 +89,14 @@ async def kophvc(client, message):
   await message.reply_text(f"تم تنزيل العضو\n│ \n└ʙʏ : {message.reply_to_message.from_user.mention}\n\n النجس استحمي 😂♥️")
   
   
-@app.on_message(command("رفع عره"))
+@app.on_message(command("رفع امعه"))
 async def roky(client, message):
-  await message.reply_text(f"تم رفع العض\n│ \n└ʙʏو : {message.reply_to_message.from_user.mention}\n\n عره عالمجتمع 😂♥️")
+  await message.reply_text(f"تم رفع العض\n│ \n└ʙʏو : {message.reply_to_message.from_user.mention}\n\n امعه عالمجتمع 😂♥️")
 
 
-@app.on_message(command("تنزيل عره"))
+@app.on_message(command("تنزيل امعه"))
 async def zerso(client, message):
-  await message.reply_text(f"تم تنزيل العضو\n│ \n└ʙʏ : {message.reply_to_message.from_user.mention}\n\n عره خلاص 😂♥️")
+  await message.reply_text(f"تم تنزيل العضو\n│ \n└ʙʏ : {message.reply_to_message.from_user.mention}\n\n امعه خلاص 😂♥️")
   
   
 @app.on_message(command("رفع بقره"))
